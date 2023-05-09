@@ -2849,6 +2849,7 @@ class CfgExileArsenal
 	*/
 
 	// Price for bullet cam magazines is normal magazine price + 20 pop tabs per bullet
+	/*
 	class Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag 			{ quality = 1; price = 40 +  5 * 20; };
 	class Exile_Magazine_5Rnd_127x108_APDS_Bullet_Cam_Mag 		{ quality = 1; price = 40 +  5 * 20; };
 	class Exile_Magazine_10Rnd_93x64_DMR_05_Bullet_Cam_Mag 		{ quality = 1; price = 40 + 10 * 20; };
@@ -2857,24 +2858,6 @@ class CfgExileArsenal
 	class Exile_Magazine_10Rnd_127x99_m107_Bullet_Cam_Mag 		{ quality = 1; price = 40 + 10 * 20; };
 	class Exile_Magazine_5Rnd_127x108_KSVK_Bullet_Cam_Mag 		{ quality = 1; price = 40 +  5 * 20; };
 	class Exile_Magazine_5Rnd_127x108_APDS_KSVK_Bullet_Cam_Mag 	{ quality = 1; price = 40 +  5 * 20; };
-
-	//gm ammunition
-	class gm_30rnd_762x39mm_b_m43_ak47_blk         { quality = 1; price = 100; };
-	class gm_30rnd_762x39mm_b_t_m43_ak47_blk         { quality = 1; price = 100; };
-	class gm_75rnd_762x39mm_b_m43_ak47_blk         { quality = 1; price = 100; };
-	class gm_75rnd_762x39mm_b_t_m43_ak47_blk         { quality = 1; price = 100; };
-	class gm_32rnd_9x19mm_b_dm51_mp2_blk         { quality = 1; price = 100; };
-	class gm_32rnd_9x19mm_b_dm11_mp2_blk         { quality = 1; price = 100; };
-	class gm_100rnd_762x54mm_b_t_t46_pk_grn         { quality = 1; price = 100; };
-	class gm_100rnd_762x54mm_api_b32_pk_grn         { quality = 1; price = 100; };
-	class gm_30rnd_545x39mm_b_7n6_ak74_prp         { quality = 1; price = 100; };
-	class gm_30rnd_545x39mm_b_t_7t3_ak74_prp         { quality = 1; price = 100; };
-	class gm_30rnd_545x39mm_b_7n6_ak74_org         { quality = 1; price = 100; };
-	class gm_30rnd_545x39mm_b_t_7t3_ak74_org         { quality = 1; price = 100; };
-	class gm_45rnd_545x39mm_b_7n6_ak74_prp         { quality = 1; price = 100; };
-	class gm_45rnd_545x39mm_b_t_7t3_ak74_prp         { quality = 1; price = 100; };
-	class gm_45rnd_545x39mm_b_7n6_ak74_org         { quality = 1; price = 100; };
-	class gm_45rnd_545x39mm_b_t_7t3_ak74_or         { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Flares
@@ -2941,7 +2924,6 @@ class CfgExileArsenal
 	class IEDUrbanSmall_Remote_Mag					{ quality = 1; price = 400; };
 	class SatchelCharge_Remote_Mag					{ quality = 1; price = 1000; };
 	class SLAMDirectionalMine_Wire_Mag				{ quality = 1; price = 700; };
-	/*
 	///////////////////////////////////////////////////////////////////////////////
 	// Pistols
 	///////////////////////////////////////////////////////////////////////////////
@@ -3299,6 +3281,189 @@ class CfgExileArsenal
 	*/
 
 	//GM weapons mod start chaddles edit
+	class gm_100Rnd_762x51mm_B_T_DM21_mg8_oli       {quality = 1; price = 150;};
+	class gm_100Rnd_762x51mm_B_T_DM21A1_mg8_oli       {quality = 1; price = 150;};
+	class gm_100Rnd_762x51mm_B_T_DM21A2_mg8_oli       {quality = 1; price = 150;};
+	class gm_100Rnd_762x54mm_API_b32_pk_grn       {quality = 1; price = 150;};
+	class gm_100Rnd_762x54mm_B_T_t46_pk_grn       {quality = 1; price = 150;};
+	class gm_100Rnd_762x54mmR_API_7bz3_pk_grn       {quality = 1; price = 150;};
+	class gm_100Rnd_762x54mmR_B_T_7t2_pk_grn       {quality = 1; price = 150;};
+	class gm_10Rnd_762x51mm_AP_DM151_g3_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x51mm_B_DM111_g3_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x51mm_B_DM41_g3_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x51mm_B_T_DM21_g3_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x51mm_B_T_DM21A1_g3_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x51mm_B_T_DM21A2_g3_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x54mmR_AP_7N1_svd_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x54mmR_API_7bz3_svd_blk       {quality = 1; price = 150;};
+	class gm_10Rnd_762x54mmR_B_T_7t2_svd_blk       {quality = 1; price = 150;};
+	class gm_120Rnd_762x51mm_B_T_DM21_mg3_grn       {quality = 1; price = 150;};
+	class gm_120Rnd_762x51mm_B_T_DM21A1_mg3_grn       {quality = 1; price = 150;};
+	class gm_120Rnd_762x51mm_B_T_DM21A2_mg3_grn       {quality = 1; price = 150;};
+	class gm_1rnd_67mm_heat_dm22a1_g3       {quality = 1; price = 150;};
+	class gm_20Rnd_556x45mm_B_M193_stanag_gry       {quality = 1; price = 150;};
+	class gm_20Rnd_556x45mm_B_M855_stanag_gry       {quality = 1; price = 150;};
+	class gm_20Rnd_556x45mm_B_T_M196_stanag_gry       {quality = 1; price = 150;};
+	class gm_20Rnd_556x45mm_B_T_M856_stanag_gry       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_AP_DM151_g3_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_ap_DM151_g3_des       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_AP_DM151_sg542_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_DM111_g3_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_b_DM111_g3_des       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_DM111_sg542_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_DM41_g3_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_b_DM41_g3_des       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_DM41_sg542_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21_g3_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_b_t_DM21_g3_des       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21_g3_gold       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21_sg542_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_b_t_DM21A1_g3_des       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21A1_sg542_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_b_t_DM21A2_g3_des       {quality = 1; price = 150;};
+	class gm_20Rnd_762x51mm_B_T_DM21A2_sg542_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_545x39mm_B_7N6_ak74_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_545x39mm_B_7N6_ak74_org       {quality = 1; price = 150;};
+	class gm_30Rnd_545x39mm_B_7N6_ak74_prp       {quality = 1; price = 150;};
+	class gm_30Rnd_545x39mm_B_T_7T3_ak74_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_545x39mm_B_T_7T3_ak74_org       {quality = 1; price = 150;};
+	class gm_30Rnd_545x39mm_B_T_7T3_ak74_prp       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_DM11_g36_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_b_dm11_g36_des       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_DM11_hk33_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_DM11_sg550_brn       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_M193_stanag_gry       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_M855_stanag_gry       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_T_DM21_g36_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_b_t_dm21_g36_des       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_T_DM21_hk33_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_T_DM21_sg550_brn       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_T_M196_stanag_gry       {quality = 1; price = 150;};
+	class gm_30Rnd_556x45mm_B_T_M856_stanag_gry       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_AP_7N23_ak47_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_AP_7N23_akm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_AP_7N23_akm_org       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_AP_7N23_mpikm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_57N231_ak47_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_57N231_akm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_57N231_akm_org       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_57N231_mpikm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_M43_ak47_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_T_57N231P_ak47_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_T_57N231P_akm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_T_57N231P_akm_org       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_T_57N231P_mpikm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_B_T_M43_ak47_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_BSD_57N231U_ak47_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_BSD_57N231U_akm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_BSD_57N231U_akm_org       {quality = 1; price = 150;};
+	class gm_30Rnd_762x39mm_BSD_57N231U_mpikm_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_AP_DM91_mp5_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_AP_DM91_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_B_DM11_mp5_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_B_DM11_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_B_DM51_mp5_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_B_DM51_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_BSD_DM81_mp5_blk       {quality = 1; price = 150;};
+	class gm_30Rnd_9x19mm_BSD_DM81_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_32Rnd_9x19mm_AP_DM91_mp2_blk       {quality = 1; price = 150;};
+	class gm_32Rnd_9x19mm_B_DM11_mp2_blk       {quality = 1; price = 150;};
+	class gm_32Rnd_9x19mm_B_DM51_mp2_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_556x45mm_B_DM11_hk33_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_556x45mm_B_T_DM21_hk33_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_762x51mm_AP_DM151_g3_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_762x51mm_B_DM111_g3_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_762x51mm_B_DM41_g3_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_762x51mm_B_T_DM21_g3_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_762x51mm_B_T_DM21A1_g3_blk       {quality = 1; price = 150;};
+	class gm_40Rnd_762x51mm_B_T_DM21A2_g3_blk       {quality = 1; price = 150;};
+	class gm_45Rnd_545x39mm_B_7N6_ak74_blk       {quality = 1; price = 150;};
+	class gm_45Rnd_545x39mm_B_7N6_ak74_org       {quality = 1; price = 150;};	
+	class gm_45Rnd_545x39mm_B_7N6_ak74_prp       {quality = 1; price = 150;};	
+	class gm_45Rnd_545x39mm_B_T_7T3_ak74_blk       {quality = 1; price = 150;};
+	class gm_45Rnd_545x39mm_B_T_7T3_ak74_org       {quality = 1; price = 150;};
+	class gm_45Rnd_545x39mm_B_T_7T3_ak74_prp       {quality = 1; price = 150;};
+	class gm_50Rnd_473x33mm_B_DM11_g11_blk       {quality = 1; price = 150;};
+	class gm_50Rnd_473x33mm_B_T_DM21_g11_blk       {quality = 1; price = 150;};
+	class gm_5Rnd_762x51mm_AP_DM151_g3_blk       {quality = 1; price = 150;};
+	class gm_5Rnd_762x51mm_B_DM111_g3_blk       {quality = 1; price = 150;};
+	class gm_5Rnd_762x51mm_B_DM41_g3_blk       {quality = 1; price = 150;};
+	class gm_5Rnd_762x51mm_B_T_DM21_g3_blk       {quality = 1; price = 150;};
+	class gm_5Rnd_762x51mm_B_T_DM21A1_g3_blk       {quality = 1; price = 150;};
+	class gm_5Rnd_762x51mm_B_T_DM21A2_g3_blk       {quality = 1; price = 150;};
+	class gm_60Rnd_556x45mm_B_DM11_hk33_blk       {quality = 1; price = 150;};
+	class gm_60Rnd_556x45mm_B_T_DM21_hk33_blk       {quality = 1; price = 150;};
+	class gm_60Rnd_9x19mm_AP_DM91_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_60Rnd_9x19mm_B_DM11_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_60Rnd_9x19mm_B_DM51_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_60Rnd_9x19mm_BSD_DM81_mp5a3_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_AP_7N23_ak47_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_AP_7N23_mpikm_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_B_57N231_ak47_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_B_57N231_mpikm_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_B_M43_ak47_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_B_T_57N231P_ak47_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_B_T_57N231P_mpikm_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_B_T_M43_ak47_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_BSD_57N231U_ak47_blk       {quality = 1; price = 150;};
+	class gm_75Rnd_762x39mm_BSD_57N231U_mpikm_blk       {quality = 1; price = 150;};
+	class gm_7rnd_12ga_hk512_pellet       {quality = 1; price = 150;};
+	class gm_7rnd_12ga_hk512_slug       {quality = 1; price = 150;};
+	//Pistol Magazines
+	class gm_15Rnd_9x18mm_B_pst_pm63_blk       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_multi_grn_DM21       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_multi_nbc_DM47       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_multi_red_DM23       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_multi_red_gc       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_multi_wht_DM25       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_multi_yel_DM20       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_para_yel_DM16       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_grn_DM11       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_grn_gc       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_red_DM13       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_red_gc       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_wht_DM15       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_wht_gc       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_flare_single_yel_DM10       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_smoke_single_blk_gc       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_smoke_single_blu_gc       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_smoke_single_org_DM22       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_smoke_single_vlt_DM24       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_smoke_single_yel_DM19       {quality = 1; price = 150;};
+	class gm_1Rnd_265mm_smoke_single_yel_gc       {quality = 1; price = 150;};
+	class gm_25Rnd_9x18mm_B_pst_pm63_blk       {quality = 1; price = 150;};
+	class gm_8Rnd_9x18mm_B_pst_pm_blk       {quality = 1; price = 150;};	
+	class gm_8Rnd_9x19mm_B_DM11_p1_blk       {quality = 1; price = 150;};	
+	class gm_8Rnd_9x19mm_B_DM11_p210_blk       {quality = 1; price = 150;};	
+	class gm_8Rnd_9x19mm_B_DM51_p1_blk       {quality = 1; price = 150;};	
+	class gm_8Rnd_9x19mm_B_DM51_p210_blk       {quality = 1; price = 150;};	
+	class gm_8Rnd_9x19mm_BSD_DM81_p1_blk       {quality = 1; price = 150;};
+	//launcherMags
+	class gm_1Rnd_2650mm_potato_dm11       {quality = 1; price = 500;};
+	class gm_1Rnd_40mm_heat_pg7v_rpg7       {quality = 1; price = 500;};
+	class gm_1Rnd_40mm_heat_pg7vl_rpg7       {quality = 1; price = 500;};
+	class gm_1Rnd_44x537mm_heat_dm32_pzf44_2       {quality = 1; price = 500;};
+	class gm_1Rnd_60mm_heat_dm12_pzf3       {quality = 1; price = 500;};
+	class gm_1Rnd_60mm_heat_dm22_pzf3       {quality = 1; price = 500;};
+	class gm_1Rnd_60mm_heat_dm32_pzf3       {quality = 1; price = 500;};
+	class gm_1Rnd_64mm_heat_pg18       {quality = 1; price = 500;};
+	class gm_1Rnd_66mm_heat_m72a3       {quality = 1; price = 500;};
+	class gm_1Rnd_70mm_he_m585_fim43       {quality = 1; price = 500;};
+	class gm_1Rnd_72mm_he_9m32m       {quality = 1; price = 500;};
+	class gm_1Rnd_84x245mm_heat_t_DM12_carlgustaf       {quality = 1; price = 500;};
+	class gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf       {quality = 1; price = 500;};
+	class gm_1Rnd_84x245mm_heat_t_DM22_carlgustaf       {quality = 1; price = 500;};
+	class gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf       {quality = 1; price = 500;};
+	class gm_1Rnd_84x245mm_ILLUM_DM16_carlgustaf       {quality = 1; price = 500;};
+	//put magazine
+	class gm_mine_at_dm21       {quality = 1; price = 1500;};
+	class gm_mine_at_tm46       {quality = 1; price = 1500;};
+	class gm_mine_ap_dm31       {quality = 1; price = 1500;};
+	class gm_explosive_petn_charge       {quality = 1; price = 1500;};
+	class gm_explosive_plnp_charge       {quality = 1; price = 1500;};
+	class gm_mine_at_mn111       {quality = 1; price = 1500;};
 	//pistols
 	class gm_pm63_handgun_blk                                                {quality = 1; price = 927;};
 	class gm_lp1_blk                                                         {quality = 1; price = 491;};
@@ -3459,9 +3624,227 @@ class CfgExileArsenal
 	class gm_sg542_blk                                                       {quality = 1; price = 2301;};
 	class gm_sg542_ris_oli                                                   {quality = 1; price = 2301;};
 	class gm_sg542_ris_blk                                                   {quality = 1; price = 2301;};
-	class gm_svd_wud                                                         {quality = 1; price = 2401;};
 	class gm_hk53a2_blk                                                      {quality = 1; price = 2451;};
 	class gm_hk53a3_blk                                                      {quality = 1; price = 2451;};
+
+	//sniper rifles
+	class gm_msg90_blk       {quality = 1; price = 500;};
+	class gm_msg90a1_blk       {quality = 1; price = 500;};
+	class gm_psg1_blk       {quality = 1; price = 500;};
+	class gm_svd_wud       {quality = 1; price = 500;};
+
+	//launchers
+	class gm_9k32m_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_fim43_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_m72a3_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_p2a1_launcher_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_pzf3_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_pzf44_2_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_pzf84_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_rpg18_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_rpg7_prp                                                      {quality = 1; price = 2451;}; 
+	class gm_rpg7_wud                                                      {quality = 1; price = 2451;}; 
+
+	//binos
+	class gm_df7x40_blk                                                      {quality = 1; price = 2451;};
+	class gm_fero51_oli                                                      {quality = 1; price = 2451;};
+	class gm_ferod16_des                                                      {quality = 1; price = 2451;};
+	class gm_ferod16_oli                                                      {quality = 1; price = 2451;};
+	class gm_ferod16_win                                                      {quality = 1; price = 2451;};
+	class gm_lp7_oli                                                      {quality = 1; price = 2451;};
+	class gm_lpr1_oli                                                      {quality = 1; price = 2451;};
+	//NVGS
+	class gm_ferod51_oli       {quality = 1; price = 500;};
+	class gm_nsg66_oli       {quality = 1; price = 500;};
+	//tools
+	class gm_bayonet_6x3_blk       {quality = 1; price = 500;};
+	class gm_bayonet_6x3_wud       {quality = 1; price = 500;};
+	class gm_bayonet_g11_blk       {quality = 1; price = 500;};
+	class gm_bayonet_g11_oli       {quality = 1; price = 500;};
+	class gm_bayonet_g3_blk       {quality = 1; price = 500;};
+	class gm_bayonet_g3_oli       {quality = 1; price = 500;};
+	class gm_boltcutter       {quality = 1; price = 500;};
+	class gm_gc_army_gauzeBandage       {quality = 1; price = 500;};
+	class gm_gc_army_medbox       {quality = 1; price = 500;};
+	class gm_gc_army_medkit       {quality = 1; price = 500;};
+	class gm_gc_compass_f73       {quality = 1; price = 500;};
+	class gm_gc_firstaidkit_vehicle       {quality = 1; price = 500;};
+	class gm_ge_army_burnBandage       {quality = 1; price = 500;};
+	class gm_ge_army_conat2       {quality = 1; price = 500;};
+	class gm_ge_army_firstaidkit_vehicle       {quality = 1; price = 500;};
+	class gm_ge_army_gauzeBandage       {quality = 1; price = 500;};
+	class gm_ge_army_gauzeCompress       {quality = 1; price = 500;};
+	class gm_ge_army_medkit_80       {quality = 1; price = 500;};
+	class gm_ge_firstaidkit_vehicle       {quality = 1; price = 500;};
+	class gm_repairkit_01       {quality = 1; price = 500;};
+	class gm_watch_kosei_80       {quality = 1; price = 500;};
+	//top attachments
+	class gm_blits_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_blits_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_blits_stanagClaw_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_blits_stanagHK_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_blits_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_c79a1_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_c79a1_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_colt4x20_ar15_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_colt4x20_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_diavari_da_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_diavari_da_stanagClaw_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz24_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz24_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz24_stanagClaw_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz24_stanagHK_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz24_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz2x17_pzf44_2_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz2x17_pzf84_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz51_pzf44_2_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz51_pzf84_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz51_ris_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz51_stanagClaw_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz51_stanagHK_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_feroz51_stanagSig_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_g11_lps_prism11mm_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_g11_mps_prism11mm_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_ir_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_ir_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_ir_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_ir_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_red_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_red_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_red_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls1500_red_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_ir_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_ir_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_ir_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_ir_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_ir_uziclaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_red_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_red_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_red_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_red_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_ls45_red_uziclaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_ir_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_ir_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_ir_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_ir_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_red_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_red_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_red_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_lsminiv_red_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_maglite_3d_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_maglite_3d_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_maglite_3d_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_maglite_3d_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_nspu_dovetail_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_nspu_dovetail_gry                                                      {quality = 1; price = 2451;}; 
+	class gm_pgo7v_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_pka_dovetail_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_pka_dovetail_gry                                                      {quality = 1; price = 2451;}; 
+	class gm_pso1_dovetail_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_pso1_dovetail_gry                                                      {quality = 1; price = 2451;}; 
+	class gm_pso6x36_1_dovetail_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_pso6x36_1_dovetail_gry                                                      {quality = 1; price = 2451;}; 
+	class gm_rv_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_rv_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_rv_stanagClaw_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_rv_stanagHK_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_rv_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_ris_brn                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_stanagClaw_brn                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_stanaghk_brn                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_stanagSig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_streamlight_sl20_stanagSig_brn                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_ris_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_ris_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_stanagClaw_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_stanaghk_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_stanaghk_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_stanagsig_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zf10x42_stanagsig_oli                                                      {quality = 1; price = 2451;}; 
+	class gm_zf6x42_psg1_stanag_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zfk4x25_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zln1k_grn_dovetail_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zln1k_grn_dovetail_gry                                                      {quality = 1; price = 2451;}; 
+	class gm_zln1k_ir_dovetail_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zpp_stanagClaw_blk                                                      {quality = 1; price = 2451;}; 
+	class gm_zvn64_ak                                                      {quality = 1; price = 2451;}; 
+	class gm_zvn64_lmgk500                                                      {quality = 1; price = 2451;}; 	
+	class gm_zvn64_rpk                                                      {quality = 1; price = 2451;}; 
+	//side attachments
+	class gm_flashlightp2_brk_ak74handguard_dino                                                      {quality = 1; price = 2451;};
+	class gm_flashlightp2_brk_akhandguard_dino                                                      {quality = 1; price = 2451;};
+	class gm_flashlightp2_brk_akkhandguard_dino                                                      {quality = 1; price = 2451;};
+	class gm_flashlightp2_wht_ak74handguard_blu                                                     {quality = 1; price = 2451;};
+	class gm_flashlightp2_wht_akhandguard_blu                                                      {quality = 1; price = 2451;};
+	class gm_flashlightp2_wht_akkhandguard_blu                                                     {quality = 1; price = 2451;};
+	class gm_maglite_2d_hkslim_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_ir_bayonetg11_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_ir_hoseclamp_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_ir_surefire_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_red_bayonetg11_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_red_hoseclamp_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_red_surefire_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_wht_bayonetg11_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_wht_hoseclamp_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l60_wht_surefire_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l72_grn_bayonetg11_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l72_grn_hoseclamp_blk                                                      {quality = 1; price = 2451;};	
+	class gm_surefire_l72_grn_surefire_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l72_red_bayonetg11_blk                                                      {quality = 1; price = 2451;};
+	class gm_surefire_l72_red_hoseclamp_blk                                                      {quality = 1; price = 2451;};	
+	class gm_surefire_l72_red_surefire_blk                                                      {quality = 1; price = 2451;};	
+	class gm_surefire_l75_ir_bayonetg11_blk                                                      {quality = 1; price = 2451;};	
+	class gm_surefire_l75_ir_hoseclamp_blk                                                      {quality = 1; price = 2451;};	
+	class gm_surefire_l75_ir_surefire_blk                                                      {quality = 1; price = 2451;};
+	//suppressors
+	class gm_suppressor_atec150_556mm_blk             {quality = 1; price = 2451;};	
+	class gm_suppressor_atec150_556mm_long_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_atec150_762mm_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_atec150_762mm_long_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_hknavy_9mm_gry             {quality = 1; price = 2451;};
+	class gm_suppressor_kacnavy_9mm_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_kacnavyk_9mm_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_kacnavysd_9mm_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_m10_9mm_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_pbs4_545mm_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_safloryt_blk             {quality = 1; price = 2451;};
+	class gm_suppressor_tgpv_762mm_blk             {quality = 1; price = 2451;};
+	//bipod
+	class gm_g3_bipod_blk       {quality = 1; price = 500;};
+	class gm_g8_bipod_blk       {quality = 1; price = 500;};
+	class gm_msg90_bipod_blk       {quality = 1; price = 500;};
+	//grenades
+	class gm_handgrenade_frag_dm41       {quality = 1; price = 1500;};
+	class gm_handgrenade_frag_dm41a1       {quality = 1; price = 1500;};
+	class gm_handgrenade_frag_dm51       {quality = 1; price = 1500;};
+	class gm_handgrenade_frag_dm51a1       {quality = 1; price = 1500;};
+	class gm_handgrenade_pracfrag_dm58       {quality = 1; price = 1500;}; 
+	class gm_handgrenade_conc_dm51       {quality = 1; price = 1500;};
+	class gm_handgrenade_conc_dm51a1       {quality = 1; price = 1500;};
+	class gm_handgrenade_pracconc_dm58       {quality = 1; price = 1500;};
+	class gm_handgrenade_frag_m26       {quality = 1; price = 1500;};
+	class gm_handgrenade_frag_m26a1       {quality = 1; price = 1500;};
+	class gm_handgrenade_frag_rgd5       {quality = 1; price = 1500;};
+	class gm_smokeshell_grn_dm21       {quality = 1; price = 1500;};
+	class gm_smokeshell_red_dm23       {quality = 1; price = 1500;};
+	class gm_smokeshell_yel_dm26       {quality = 1; price = 1500;};
+	class gm_smokeshell_org_dm32       {quality = 1; price = 1500;};
+	class gm_smokeshell_wht_dm25       {quality = 1; price = 1500;};
+	class gm_smokeshell_grn_gc       {quality = 1; price = 1500;};
+	class gm_smokeshell_blk_gc       {quality = 1; price = 1500;};
+	class gm_smokeshell_red_gc       {quality = 1; price = 1500;};
+	class gm_smokeshell_yel_gc       {quality = 1; price = 1500;};
+	class gm_smokeshell_blu_gc       {quality = 1; price = 1500;};
+	class gm_smokeshell_org_gc       {quality = 1; price = 1500;};
+	class gm_smokeshell_wht_gc       {quality = 1; price = 1500;};
+
+	//attachments
+	
+
 	///////////////////////////////////////////////////////////////////////////////
 	// BIKES
 	///////////////////////////////////////////////////////////////////////////////
@@ -3939,11 +4322,210 @@ class CfgExileArsenal
 	class Exile_Car_MB4WDOpen							{ quality = 1; price = 15000; };
 
 	///////////////////////////////////////////////////////////////////////////////
-	//chaddles edits
+	//chaddles edits gm vehicles mod start
 	//////////////////////////////////////////////////////////////////////////////
 	class gm_ge_bgs_w123_cargo							{ quality = 1; price = 1000; };
 	class gm_ge_bgs_w253_cargo							{ quality = 1; price = 1000; };
-
+	//new
+	class gm_dk_army_typ1200_cargo							{ quality = 1; price = 1000; };
+	class gm_dk_army_typ247_cargo							{ quality = 1; price = 1000; };
+	class gm_dk_army_typ253_cargo							{ quality = 1; price = 1000; };
+	class gm_dk_army_typ253_mp							{ quality = 1; price = 1000; };
+	class gm_dk_army_u1300l_container							{ quality = 1; price = 1000; };
+	//West Germany
+	class gm_ge_army_bicycle_01_oli							{ quality = 1; price = 1000; };
+	class gm_ge_army_fuchsa0_command							{ quality = 1; price = 1000; };
+	class gm_ge_army_fuchsa0_engineer							{ quality = 1; price = 1000; };
+	class gm_ge_army_fuchsa0_reconnaissance							{ quality = 1; price = 1000; };
+	class gm_ge_army_iltis_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_iltis_mg3							{ quality = 1; price = 1000; };
+	class gm_ge_army_iltis_milan							{ quality = 1; price = 1000; };
+	class gm_ge_army_k125							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_451_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_451_container							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_451_reammo							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_451_refuel							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_452_container							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_454_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_454_reammo							{ quality = 1; price = 1000; };
+	class gm_ge_army_kat1_463_mlrs							{ quality = 1; price = 1000; };
+	class gm_ge_army_luchsa1							{ quality = 1; price = 1000; };
+	class gm_ge_army_luchsa2							{ quality = 1; price = 1000; };
+	class gm_ge_army_typ1200_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_typ247_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_typ247_firefighter							{ quality = 1; price = 1000; };
+	class gm_ge_army_typ253_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_typ253_mp							{ quality = 1; price = 1000; };
+	class gm_ge_army_u1300l_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_army_u1300l_container							{ quality = 1; price = 1000; };
+	class gm_ge_army_u1300l_firefighter							{ quality = 1; price = 1000; };
+	class gm_ge_army_u1300l_medic							{ quality = 1; price = 1000; };
+	class gm_ge_army_u1300l_repair							{ quality = 1; price = 1000; };
+	class gm_ge_army_w123_cargo							{ quality = 1; price = 1000; };
+	class gm_ge_bgs_bicycle_01_grn							{ quality = 1; price = 1000; };
+	class gm_ge_bgs_k125							{ quality = 1; price = 1000; };
+	class gm_ge_bgs_typ253_cargo							{ quality = 1; price = 1000; };
+	//East Germany
+	class gm_gc_army_bicycle_01_oli							{ quality = 1; price = 1000; };
+	class gm_gc_army_brdm2							{ quality = 1; price = 1000; };
+	class gm_gc_army_brdm2rkh							{ quality = 1; price = 1000; };
+	class gm_gc_army_brdm2um							{ quality = 1; price = 1000; };
+	class gm_gc_army_btr60pa							{ quality = 1; price = 1000; };
+	class gm_gc_army_btr60pa_dshkm							{ quality = 1; price = 1000; };
+	class gm_gc_army_btr60pb							{ quality = 1; price = 1000; };
+	class gm_gc_army_btr60pu12							{ quality = 1; price = 1000; };
+	class gm_gc_army_p601							{ quality = 1; price = 1000; };
+	class gm_gc_army_uaz469_cargo							{ quality = 1; price = 1000; };
+	class gm_gc_army_uaz469_dshkm							{ quality = 1; price = 1000; };
+	class gm_gc_army_uaz469_spg9							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural375d_cargo							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural375d_medic							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural375d_mlrs							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural375d_refuel							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural4320_cargo							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural4320_reammo							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural4320_repair							{ quality = 1; price = 1000; };
+	class gm_gc_army_ural44202							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_p601							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_uaz469_cargo							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_uaz469_spg9							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_ural375d_medic							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_ural375d_refuel							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_ural4320_cargo							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_ural4320_reammo							{ quality = 1; price = 1000; };
+	class gm_gc_bgs_ural4320_repair							{ quality = 1; price = 1000; };
+	//Poland
+	class gm_pl_army_brdm2							{ quality = 1; price = 1000; };
+	class gm_pl_army_ot64							{ quality = 1; price = 1000; };
+	class gm_pl_army_uaz469_cargo							{ quality = 1; price = 1000; };
+	class gm_pl_army_uaz469_dshkm							{ quality = 1; price = 1000; };
+	class gm_pl_army_ural375d_medic							{ quality = 1; price = 1000; };
+	class gm_pl_army_ural375d_mlrs							{ quality = 1; price = 1000; };
+	class gm_pl_army_ural375d_refuel							{ quality = 1; price = 1000; };
+	class gm_pl_army_ural4320_cargo							{ quality = 1; price = 1000; };
+	class gm_pl_army_ural4320_reammo							{ quality = 1; price = 1000; };
+	class gm_pl_army_ural4320_repair							{ quality = 1; price = 1000; };
+	//Civilians
+	class gm_gc_civ_p601							{ quality = 1; price = 1000; };
+	class gm_gc_civ_ural375d_cargo							{ quality = 1; price = 1000; };
+	class gm_gc_dp_p601							{ quality = 1; price = 1000; };
+	class gm_gc_ff_p601							{ quality = 1; price = 1000; };
+	class gm_gc_pol_p601							{ quality = 1; price = 1000; };
+	class gm_ge_civ_typ1200							{ quality = 1; price = 1000; };
+	class gm_ge_civ_typ247							{ quality = 1; price = 1000; };
+	class gm_ge_civ_typ251							{ quality = 1; price = 1000; };
+	class gm_ge_civ_typ253							{ quality = 1; price = 1000; };
+	class gm_ge_civ_u1300l							{ quality = 1; price = 1000; };
+	class gm_ge_civ_w123							{ quality = 1; price = 1000; };
+	class gm_ge_dbp_bicycle_01_ylw							{ quality = 1; price = 1000; };
+	class gm_ge_dbp_typ1200							{ quality = 1; price = 1000; };
+	class gm_ge_dbp_typ247							{ quality = 1; price = 1000; };
+	class gm_ge_dbp_typ251							{ quality = 1; price = 1000; };
+	class gm_ge_dbp_w123							{ quality = 1; price = 1000; };
+	class gm_ge_ff_typ1200							{ quality = 1; price = 1000; };
+	class gm_ge_ff_typ247							{ quality = 1; price = 1000; };
+	class gm_ge_ff_typ247_firefighter							{ quality = 1; price = 1000; };
+	class gm_ge_ff_typ253							{ quality = 1; price = 1000; };
+	class gm_ge_ff_u1300l_firefighter							{ quality = 1; price = 1000; };
+	class gm_ge_ff_u1300l_medic							{ quality = 1; price = 1000; };
+	class gm_ge_ff_w123							{ quality = 1; price = 1000; };
+	class gm_ge_pol_bicycle_01_grn							{ quality = 1; price = 1000; };
+	class gm_ge_pol_typ1200							{ quality = 1; price = 1000; };
+	class gm_ge_pol_typ253							{ quality = 1; price = 1000; };
+	class gm_ge_pol_w123							{ quality = 1; price = 1000; };
+	class gm_ge_taxi_typ253							{ quality = 1; price = 1000; };
+	class gm_ge_taxi_w123							{ quality = 1; price = 1000; };
+	class gm_xx_civ_bicycle_01							{ quality = 1; price = 1000; };
+	//Tracked
+	//Denmark
+	class gm_dk_army_bibera0							{ quality = 1; price = 100000; };
+	class gm_dk_army_bpz2a0							{ quality = 1; price = 100000; };
+	class gm_dk_army_Leopard1a3							{ quality = 1; price = 100000; };
+	class gm_dk_army_m109							{ quality = 1; price = 100000; };
+	class gm_dk_army_m113a1dk_apc							{ quality = 1; price = 100000; };
+	class gm_dk_army_m113a1dk_command							{ quality = 1; price = 100000; };
+	class gm_dk_army_m113a1dk_engineer							{ quality = 1; price = 100000; };
+	class gm_dk_army_m113a1dk_medic							{ quality = 1; price = 100000; };
+	class gm_dk_army_m113a2dk							{ quality = 1; price = 100000; };
+	//West Germany
+	class gm_ge_army_bibera0							{ quality = 1; price = 100000; };
+	class gm_ge_army_bpz2a0							{ quality = 1; price = 100000; };
+	class gm_ge_army_gepard1a1							{ quality = 1; price = 100000; };
+	class gm_ge_army_Leopard1a1							{ quality = 1; price = 100000; };
+	class gm_ge_army_Leopard1a1a1							{ quality = 1; price = 100000; };
+	class gm_ge_army_Leopard1a1a2							{ quality = 1; price = 100000; };
+	class gm_ge_army_Leopard1a3							{ quality = 1; price = 100000; };
+	class gm_ge_army_Leopard1a3a1							{ quality = 1; price = 100000; };
+	class gm_ge_army_Leopard1a5							{ quality = 1; price = 100000; };
+	class gm_ge_army_m109g							{ quality = 1; price = 100000; };
+	class gm_ge_army_m113a1g_apc							{ quality = 1; price = 100000; };
+	class gm_ge_army_m113a1g_apc_milan							{ quality = 1; price = 100000; };
+	class gm_ge_army_m113a1g_command							{ quality = 1; price = 100000; };
+	class gm_ge_army_m113a1g_medic							{ quality = 1; price = 100000; };
+	class gm_ge_army_marder1a1a							{ quality = 1; price = 100000; };
+	class gm_ge_army_marder1a1plus							{ quality = 1; price = 100000; };
+	class gm_ge_army_marder1a2							{ quality = 1; price = 100000; };
+	//East Germany
+	class gm_gc_army_2p16							{ quality = 1; price = 100000; };
+	class gm_gc_army_2s1							{ quality = 1; price = 100000; };
+	class gm_gc_army_bmp1sp2							{ quality = 1; price = 100000; };
+	class gm_gc_army_pt76b							{ quality = 1; price = 100000; };
+	class gm_gc_army_t55							{ quality = 1; price = 100000; };
+	class gm_gc_army_t55a							{ quality = 1; price = 100000; };
+	class gm_gc_army_t55ak							{ quality = 1; price = 100000; };
+	class gm_gc_army_t55am2							{ quality = 1; price = 100000; };
+	class gm_gc_army_t55am2b							{ quality = 1; price = 100000; };
+	class gm_gc_army_zsu234v1							{ quality = 1; price = 100000; };
+	//Poland
+	class gm_pl_army_2p16							{ quality = 1; price = 100000; };
+	class gm_pl_army_2s1							{ quality = 1; price = 100000; };
+	class gm_pl_army_bmp1sp2							{ quality = 1; price = 100000; };
+	class gm_pl_army_pt76b							{ quality = 1; price = 100000; };
+	class gm_pl_army_t55							{ quality = 1; price = 100000; };
+	class gm_pl_army_t55a							{ quality = 1; price = 100000; };
+	class gm_pl_army_t55ak							{ quality = 1; price = 100000; };
+	class gm_pl_army_zsu234v1							{ quality = 1; price = 100000; };
+	//Air
+	//West Germany
+	class gm_ge_airforce_do28d2							{ quality = 1; price = 100000; };
+	class gm_ge_airforce_do28d2_medevac							{ quality = 1; price = 100000; };
+	class gm_ge_army_bo105m_vbh							{ quality = 1; price = 100000; };
+	class gm_ge_army_bo105p1m_vb							{ quality = 1; price = 100000; };
+	class gm_ge_army_bo105p1m_vbh_swooper							{ quality = 1; price = 100000; };
+	class gm_ge_army_bo105p_pah1							{ quality = 1; price = 100000; };
+	class gm_ge_army_bo105p_pah1a1							{ quality = 1; price = 100000; };
+	class gm_ge_army_ch53g							{ quality = 1; price = 100000; };
+	class gm_ge_army_ch53gs							{ quality = 1; price = 100000; };
+	class gm_ge_bgs_bo105m_vbh							{ quality = 1; price = 100000; };
+	//East Germany
+	class gm_gc_airforce_l410s_salon							{ quality = 1; price = 100000; };
+	class gm_gc_airforce_l410t							{ quality = 1; price = 100000; };
+	class gm_gc_airforce_mi2p							{ quality = 1; price = 100000; };
+	class gm_gc_airforce_mi2sr							{ quality = 1; price = 100000; };
+	class gm_gc_airforce_mi2t							{ quality = 1; price = 100000; };
+	class gm_gc_airforce_mi2urn							{ quality = 1; price = 100000; };
+	class gm_gc_airforce_mi2us							{ quality = 1; price = 100000; };
+	class gm_gc_bgs_mi2p							{ quality = 1; price = 100000; };
+	class gm_gc_bgs_mi2us							{ quality = 1; price = 100000; };
+	//Poland
+	class gm_pl_airforce_mi2ch							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2p							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2platan							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2sr							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2t							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2urn							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2urp							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2urpg							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2urs							{ quality = 1; price = 100000; };
+	class gm_pl_airforce_mi2us							{ quality = 1; price = 100000; };
+	//Civilians
+	class gm_gc_civ_l410s_passenger							{ quality = 1; price = 100000; };
+	class gm_gc_civ_l410s_salon							{ quality = 1; price = 100000; };
+	class gm_gc_civ_mi2p							{ quality = 1; price = 100000; };
+	class gm_gc_civ_mi2r							{ quality = 1; price = 100000; };
+	class gm_gc_civ_mi2sr							{ quality = 1; price = 100000; };
+	class gm_ge_adak_bo105m_vbh							{ quality = 1; price = 100000; };
+	class gm_ge_pol_bo105m_vbh							{ quality = 1; price = 100000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Flags
@@ -7056,7 +7638,34 @@ class CfgTraderCategories
 		items[] =
 		{
 			"acc_flashlight",
-			"acc_pointer_IR"
+			"acc_pointer_IR",
+			//class sideAttachments
+			"gm_flashlightp2_brk_ak74handguard_dino",
+			"gm_flashlightp2_brk_akhandguard_dino",
+			"gm_flashlightp2_brk_akkhandguard_dino",
+			"gm_flashlightp2_wht_ak74handguard_blu",
+			"gm_flashlightp2_wht_akhandguard_blu",
+			"gm_flashlightp2_wht_akkhandguard_blu",
+			"gm_maglite_2d_hkslim_blk",
+			"gm_surefire_l60_ir_bayonetg11_blk",
+			"gm_surefire_l60_ir_hoseclamp_blk",
+			"gm_surefire_l60_ir_surefire_blk",
+			"gm_surefire_l60_red_bayonetg11_blk",
+			"gm_surefire_l60_red_hoseclamp_blk",
+			"gm_surefire_l60_red_surefire_blk",
+			"gm_surefire_l60_wht_bayonetg11_blk",
+			"gm_surefire_l60_wht_hoseclamp_blk",
+			"gm_surefire_l60_wht_surefire_blk",
+			"gm_surefire_l72_grn_bayonetg11_blk",
+			"gm_surefire_l72_grn_hoseclamp_blk",	
+			"gm_surefire_l72_grn_surefire_blk",
+			"gm_surefire_l72_red_bayonetg11_blk",
+			"gm_surefire_l72_red_hoseclamp_blk",	
+			"gm_surefire_l72_red_surefire_blk",	
+			"gm_surefire_l75_ir_bayonetg11_blk",	
+			"gm_surefire_l75_ir_hoseclamp_blk",	
+			"gm_surefire_l75_ir_surefire_blk"
+
 		};
 	};
 
@@ -7066,7 +7675,7 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itembipod_ca.paa";
 		items[] =
 		{
-			"bipod_01_F_blk",
+			/*"bipod_01_F_blk",
 			"bipod_01_F_mtp",
 			"bipod_01_F_snd",
 			"bipod_02_F_blk",
@@ -7075,7 +7684,10 @@ class CfgTraderCategories
 			"bipod_03_F_blk",
 			"bipod_03_F_oli",
 			//Apex
-			"bipod_01_F_khk"
+			"bipod_01_F_khk"*/
+			"gm_g3_bipod_blk",
+			"gm_g8_bipod_blk",
+			"gm_msg90_bipod_blk"
 		};
 	};
 
@@ -7111,6 +7723,19 @@ class CfgTraderCategories
 			"muzzle_snds_65_TI_ghex_F",
 			"muzzle_snds_H_MG_blk_F",
 			"muzzle_snds_H_MG_khk_F"*/
+			//suppressors
+			"gm_suppressor_atec150_556mm_blk",	
+			"gm_suppressor_atec150_556mm_long_blk",
+			"gm_suppressor_atec150_762mm_blk",
+			"gm_suppressor_atec150_762mm_long_blk",
+			"gm_suppressor_hknavy_9mm_gry",
+			"gm_suppressor_kacnavy_9mm_blk",
+			"gm_suppressor_kacnavyk_9mm_blk",
+			"gm_suppressor_kacnavysd_9mm_blk",
+			"gm_suppressor_m10_9mm_blk",
+			"gm_suppressor_pbs4_545mm_blk",
+			"gm_suppressor_safloryt_blk",
+			"gm_suppressor_tgpv_762mm_blk"
 		};
 	};
 
@@ -7182,6 +7807,102 @@ class CfgTraderCategories
 			"optic_Holosight_blk_F",
 			"optic_Holosight_khk_F",
 			"optic_Holosight_smg_blk_F"*/
+			//gm attachments
+			"gm_blits_ris_blk",
+			"gm_blits_stanagClaw_blk",
+			"gm_blits_stanagClaw_oli",
+			"gm_blits_stanagHK_blk",
+			"gm_blits_stanagSig_blk",
+			"gm_c79a1_blk",
+			"gm_c79a1_oli",
+			"gm_colt4x20_ar15_blk",
+			"gm_colt4x20_stanagClaw_blk",
+			"gm_diavari_da_stanagClaw_blk",
+			"gm_diavari_da_stanagClaw_oli",
+			"gm_feroz24_ris_blk",
+			"gm_feroz24_stanagClaw_blk",
+			"gm_feroz24_stanagClaw_oli",
+			"gm_feroz24_stanagHK_blk",
+			"gm_feroz24_stanagSig_blk",
+			"gm_feroz2x17_pzf44_2_blk",
+			"gm_feroz2x17_pzf84_blk",
+			"gm_feroz51_pzf44_2_oli",
+			"gm_feroz51_pzf84_oli",
+			"gm_feroz51_ris_oli",
+			"gm_feroz51_stanagClaw_oli",
+			"gm_feroz51_stanagHK_oli",
+			"gm_feroz51_stanagSig_oli",
+			"gm_g11_lps_prism11mm_blk",
+			"gm_g11_mps_prism11mm_blk",
+			"gm_ls1500_ir_ris_blk",
+			"gm_ls1500_ir_stanagClaw_blk",
+			"gm_ls1500_ir_stanaghk_blk",
+			"gm_ls1500_ir_stanagSig_blk",
+			"gm_ls1500_red_ris_blk",
+			"gm_ls1500_red_stanagClaw_blk",
+			"gm_ls1500_red_stanaghk_blk",
+			"gm_ls1500_red_stanagSig_blk",
+			"gm_ls45_ir_ris_blk",
+			"gm_ls45_ir_stanagClaw_blk",
+			"gm_ls45_ir_stanaghk_blk",
+			"gm_ls45_ir_stanagSig_blk",
+			"gm_ls45_ir_uziclaw_blk",
+			"gm_ls45_red_ris_blk",
+			"gm_ls45_red_stanagClaw_blk",
+			"gm_ls45_red_stanaghk_blk",
+			"gm_ls45_red_stanagSig_blk",
+			"gm_ls45_red_uziclaw_blk",
+			"gm_lsminiv_ir_ris_blk",
+			"gm_lsminiv_ir_stanagClaw_blk",
+			"gm_lsminiv_ir_stanaghk_blk",
+			"gm_lsminiv_ir_stanagSig_blk",
+			"gm_lsminiv_red_ris_blk",
+			"gm_lsminiv_red_stanagClaw_blk",
+			"gm_lsminiv_red_stanaghk_blk",
+			"gm_lsminiv_red_stanagSig_blk",
+			"gm_maglite_3d_ris_blk",
+			"gm_maglite_3d_stanagClaw_blk",
+			"gm_maglite_3d_stanaghk_blk",
+			"gm_maglite_3d_stanagSig_blk",
+			"gm_nspu_dovetail_blk",
+			"gm_nspu_dovetail_gry",
+			"gm_pgo7v_blk",
+			"gm_pka_dovetail_blk",
+			"gm_pka_dovetail_gry",
+			"gm_pso1_dovetail_blk",
+			"gm_pso1_dovetail_gry",
+			"gm_pso6x36_1_dovetail_blk",
+			"gm_pso6x36_1_dovetail_gry",
+			"gm_rv_ris_blk",
+			"gm_rv_stanagClaw_blk",
+			"gm_rv_stanagClaw_oli",
+			"gm_rv_stanagHK_blk",
+			"gm_rv_stanagSig_blk",
+			"gm_streamlight_sl20_ris_blk",
+			"gm_streamlight_sl20_ris_brn",
+			"gm_streamlight_sl20_stanagClaw_blk",
+			"gm_streamlight_sl20_stanagClaw_brn",
+			"gm_streamlight_sl20_stanaghk_blk",
+			"gm_streamlight_sl20_stanaghk_brn",
+			"gm_streamlight_sl20_stanagSig_blk",
+			"gm_streamlight_sl20_stanagSig_brn",
+			"gm_zf10x42_ris_blk",
+			"gm_zf10x42_ris_oli",
+			"gm_zf10x42_stanagClaw_blk",
+			"gm_zf10x42_stanagClaw_oli",
+			"gm_zf10x42_stanaghk_blk",
+			"gm_zf10x42_stanaghk_oli",
+			"gm_zf10x42_stanagsig_blk",
+			"gm_zf10x42_stanagsig_oli",
+			"gm_zf6x42_psg1_stanag_blk",
+			"gm_zfk4x25_blk",
+			"gm_zln1k_grn_dovetail_blk",
+			"gm_zln1k_grn_dovetail_gry",
+			"gm_zln1k_ir_dovetail_blk",
+			"gm_zpp_stanagClaw_blk",
+			"gm_zvn64_ak",
+			"gm_zvn64_lmgk500",	
+			"gm_zvn64_rpk"
 		};
 	};
 
@@ -7376,7 +8097,29 @@ class CfgTraderCategories
 			"ItemCompass",
 			"ItemRadio",
 			"ItemWatch",
-			"Exile_Item_XM8"			
+			"Exile_Item_XM8",
+			//gm tools
+			"gm_bayonet_6x3_blk",
+			"gm_bayonet_6x3_wud",
+			"gm_bayonet_g11_blk",
+			"gm_bayonet_g11_oli",
+			"gm_bayonet_g3_blk",
+			"gm_bayonet_g3_oli",
+			"gm_boltcutter",
+			"gm_gc_army_gauzeBandage",
+			"gm_gc_army_medbox",
+			"gm_gc_army_medkit",
+			"gm_gc_compass_f73",
+			"gm_gc_firstaidkit_vehicle",
+			"gm_ge_army_burnBandage",
+			"gm_ge_army_conat2",
+			"gm_ge_army_firstaidkit_vehicle",
+			"gm_ge_army_gauzeBandage",
+			"gm_ge_army_gauzeCompress",
+			"gm_ge_army_medkit_80",
+			"gm_ge_firstaidkit_vehicle",
+			"gm_repairkit_01",
+			"gm_watch_kosei_80"			
 		};
 	};
 
@@ -7389,8 +8132,19 @@ class CfgTraderCategories
 			"Exile_Item_InstaDoc",
 			"Exile_Item_Bandage",
 			"Exile_Item_Vishpirin",
-			"Exile_Item_Heatpack"
-
+			"Exile_Item_Heatpack",
+			"gm_gc_army_gauzeBandage",
+			"gm_gc_army_medbox",
+			"gm_gc_army_medkit",
+			"gm_gc_compass_f73",
+			"gm_gc_firstaidkit_vehicle",
+			"gm_ge_army_burnBandage",
+			"gm_ge_army_conat2",
+			"gm_ge_army_firstaidkit_vehicle",
+			"gm_ge_army_gauzeBandage",
+			"gm_ge_army_gauzeCompress",
+			"gm_ge_army_medkit_80",
+			"gm_ge_firstaidkit_vehicle"
 			// Not available in 0.9.4!
 			//"Exile_Item_Defibrillator"
 		};
@@ -7410,14 +8164,14 @@ class CfgTraderCategories
 			"G_Diving",
 			"G_B_Diving",
 			"G_O_Diving",
-			"G_I_Diving",
-			"NVGoggles",
-			"NVGoggles_INDEP",
-			"NVGoggles_OPFOR",
-			"O_NVGoggles_hex_F",
-			"O_NVGoggles_urb_F",
-			"O_NVGoggles_ghex_F",
-			"NVGoggles_tna_F"
+			"G_I_Diving"
+			//"NVGoggles",
+			//"NVGoggles_INDEP",
+			//"NVGoggles_OPFOR",
+			//"O_NVGoggles_hex_F",
+			//"O_NVGoggles_urb_F",
+			//"O_NVGoggles_ghex_F",
+			//"NVGoggles_tna_F"
 		};
 	};
 
@@ -7604,21 +8358,154 @@ class CfgTraderCategories
 			"Exile_Magazine_5Rnd_127x108_APDS_KSVK",
 			"Exile_Magazine_5Rnd_127x108_KSVK",
 			//gm ammunition
-			"gm_30rnd_762x39mm_b_m43_ak47_blk",
-			"gm_30rnd_762x39mm_b_t_m43_ak47_blk",
-			"gm_75rnd_762x39mm_b_m43_ak47_blk",
-			"gm_75rnd_762x39mm_b_t_m43_ak47_blk",
-			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
-			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
-			"gm_100rnd_762x54mm_b_t_t46_pk_grn",
-			"gm_100rnd_762x54mm_api_b32_pk_grn",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_prp",
-			"gm_30rnd_545x39mm_b_7n6_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_45rnd_545x39mm_b_7n6_ak74_prp",
-			"gm_45rnd_545x39mm_b_t_7t3_ak74_prp",
-			"gm_45rnd_545x39mm_b_7n6_ak74_org",
-			"gm_45rnd_545x39mm_b_t_7t3_ak74_org"
+			//primaryMagazines
+			"gm_100Rnd_762x51mm_B_T_DM21_mg8_oli",
+			"gm_100Rnd_762x51mm_B_T_DM21A1_mg8_oli",
+			"gm_100Rnd_762x51mm_B_T_DM21A2_mg8_oli",
+			"gm_100Rnd_762x54mm_API_b32_pk_grn",
+			"gm_100Rnd_762x54mm_B_T_t46_pk_grn",
+			"gm_100Rnd_762x54mmR_API_7bz3_pk_grn",
+			"gm_100Rnd_762x54mmR_B_T_7t2_pk_grn",
+			"gm_10Rnd_762x51mm_AP_DM151_g3_blk",
+			"gm_10Rnd_762x51mm_B_DM111_g3_blk",
+			"gm_10Rnd_762x51mm_B_DM41_g3_blk",
+			"gm_10Rnd_762x51mm_B_T_DM21_g3_blk",
+			"gm_10Rnd_762x51mm_B_T_DM21A1_g3_blk",
+			"gm_10Rnd_762x51mm_B_T_DM21A2_g3_blk",
+			"gm_10Rnd_762x54mmR_AP_7N1_svd_blk",
+			"gm_10Rnd_762x54mmR_API_7bz3_svd_blk",
+			"gm_10Rnd_762x54mmR_B_T_7t2_svd_blk",
+			"gm_120Rnd_762x51mm_B_T_DM21_mg3_grn",
+			"gm_120Rnd_762x51mm_B_T_DM21A1_mg3_grn",
+			"gm_120Rnd_762x51mm_B_T_DM21A2_mg3_grn",
+			"gm_1rnd_67mm_heat_dm22a1_g3",
+			"gm_20Rnd_556x45mm_B_M193_stanag_gry",
+			"gm_20Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_20Rnd_556x45mm_B_T_M196_stanag_gry",
+			"gm_20Rnd_556x45mm_B_T_M856_stanag_gry",
+			"gm_20Rnd_762x51mm_AP_DM151_g3_blk",
+			"gm_20Rnd_762x51mm_ap_DM151_g3_des",
+			"gm_20Rnd_762x51mm_AP_DM151_sg542_blk",
+			"gm_20Rnd_762x51mm_B_DM111_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM111_g3_des",
+			"gm_20Rnd_762x51mm_B_DM111_sg542_blk",
+			"gm_20Rnd_762x51mm_B_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_des",
+			"gm_20Rnd_762x51mm_B_DM41_sg542_blk",
+			"gm_20Rnd_762x51mm_B_T_DM21_g3_blk",
+			"gm_20Rnd_762x51mm_b_t_DM21_g3_des",
+			"gm_20Rnd_762x51mm_B_T_DM21_g3_gold",
+			"gm_20Rnd_762x51mm_B_T_DM21_sg542_blk",
+			"gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk",
+			"gm_20Rnd_762x51mm_b_t_DM21A1_g3_des",
+			"gm_20Rnd_762x51mm_B_T_DM21A1_sg542_blk",
+			"gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk",
+			"gm_20Rnd_762x51mm_b_t_DM21A2_g3_des",
+			"gm_20Rnd_762x51mm_B_T_DM21A2_sg542_blk",
+			"gm_30Rnd_545x39mm_B_7N6_ak74_blk",
+			"gm_30Rnd_545x39mm_B_7N6_ak74_org",
+			"gm_30Rnd_545x39mm_B_7N6_ak74_prp",
+			"gm_30Rnd_545x39mm_B_T_7T3_ak74_blk",
+			"gm_30Rnd_545x39mm_B_T_7T3_ak74_org",
+			"gm_30Rnd_545x39mm_B_T_7T3_ak74_prp",
+			"gm_30Rnd_556x45mm_B_DM11_g36_blk",
+			"gm_30Rnd_556x45mm_b_dm11_g36_des",
+			"gm_30Rnd_556x45mm_B_DM11_hk33_blk",
+			"gm_30Rnd_556x45mm_B_DM11_sg550_brn",
+			"gm_30Rnd_556x45mm_B_M193_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_T_DM21_g36_blk",
+			"gm_30Rnd_556x45mm_b_t_dm21_g36_des",
+			"gm_30Rnd_556x45mm_B_T_DM21_hk33_blk",
+			"gm_30Rnd_556x45mm_B_T_DM21_sg550_brn",
+			"gm_30Rnd_556x45mm_B_T_M196_stanag_gry",
+			"gm_30Rnd_556x45mm_B_T_M856_stanag_gry",
+			"gm_30Rnd_762x39mm_AP_7N23_ak47_blk",
+			"gm_30Rnd_762x39mm_AP_7N23_akm_blk",
+			"gm_30Rnd_762x39mm_AP_7N23_akm_org",
+			"gm_30Rnd_762x39mm_AP_7N23_mpikm_blk",
+			"gm_30Rnd_762x39mm_B_57N231_ak47_blk",
+			"gm_30Rnd_762x39mm_B_57N231_akm_blk",
+			"gm_30Rnd_762x39mm_B_57N231_akm_org",
+			"gm_30Rnd_762x39mm_B_57N231_mpikm_blk",
+			"gm_30Rnd_762x39mm_B_M43_ak47_blk",
+			"gm_30Rnd_762x39mm_B_T_57N231P_ak47_blk",
+			"gm_30Rnd_762x39mm_B_T_57N231P_akm_blk",
+			"gm_30Rnd_762x39mm_B_T_57N231P_akm_org",
+			"gm_30Rnd_762x39mm_B_T_57N231P_mpikm_blk",
+			"gm_30Rnd_762x39mm_B_T_M43_ak47_blk",
+			"gm_30Rnd_762x39mm_BSD_57N231U_ak47_blk",
+			"gm_30Rnd_762x39mm_BSD_57N231U_akm_blk",
+			"gm_30Rnd_762x39mm_BSD_57N231U_akm_org",
+			"gm_30Rnd_762x39mm_BSD_57N231U_mpikm_blk",
+			"gm_30Rnd_9x19mm_AP_DM91_mp5_blk",
+			"gm_30Rnd_9x19mm_AP_DM91_mp5a3_blk",
+			"gm_30Rnd_9x19mm_B_DM11_mp5_blk",
+			"gm_30Rnd_9x19mm_B_DM11_mp5a3_blk",
+			"gm_30Rnd_9x19mm_B_DM51_mp5_blk",
+			"gm_30Rnd_9x19mm_B_DM51_mp5a3_blk",
+			"gm_30Rnd_9x19mm_BSD_DM81_mp5_blk",
+			"gm_30Rnd_9x19mm_BSD_DM81_mp5a3_blk",
+			"gm_32Rnd_9x19mm_AP_DM91_mp2_blk",
+			"gm_32Rnd_9x19mm_B_DM11_mp2_blk",
+			"gm_32Rnd_9x19mm_B_DM51_mp2_blk",
+			"gm_40Rnd_556x45mm_B_DM11_hk33_blk",
+			"gm_40Rnd_556x45mm_B_T_DM21_hk33_blk",
+			"gm_40Rnd_762x51mm_AP_DM151_g3_blk",
+			"gm_40Rnd_762x51mm_B_DM111_g3_blk",
+			"gm_40Rnd_762x51mm_B_DM41_g3_blk",
+			"gm_40Rnd_762x51mm_B_T_DM21_g3_blk",
+			"gm_40Rnd_762x51mm_B_T_DM21A1_g3_blk",
+			"gm_40Rnd_762x51mm_B_T_DM21A2_g3_blk",
+			"gm_45Rnd_545x39mm_B_7N6_ak74_blk",
+			"gm_45Rnd_545x39mm_B_7N6_ak74_org",	
+			"gm_45Rnd_545x39mm_B_7N6_ak74_prp",	
+			"gm_45Rnd_545x39mm_B_T_7T3_ak74_blk",
+			"gm_45Rnd_545x39mm_B_T_7T3_ak74_org",
+			"gm_45Rnd_545x39mm_B_T_7T3_ak74_prp",
+			"gm_50Rnd_473x33mm_B_DM11_g11_blk",
+			"gm_50Rnd_473x33mm_B_T_DM21_g11_blk",
+			"gm_5Rnd_762x51mm_AP_DM151_g3_blk",
+			"gm_5Rnd_762x51mm_B_DM111_g3_blk",
+			"gm_5Rnd_762x51mm_B_DM41_g3_blk",
+			"gm_5Rnd_762x51mm_B_T_DM21_g3_blk",
+			"gm_5Rnd_762x51mm_B_T_DM21A1_g3_blk",
+			"gm_5Rnd_762x51mm_B_T_DM21A2_g3_blk",
+			"gm_60Rnd_556x45mm_B_DM11_hk33_blk",
+			"gm_60Rnd_556x45mm_B_T_DM21_hk33_blk",
+			"gm_60Rnd_9x19mm_AP_DM91_mp5a3_blk",
+			"gm_60Rnd_9x19mm_B_DM11_mp5a3_blk",
+			"gm_60Rnd_9x19mm_B_DM51_mp5a3_blk",
+			"gm_60Rnd_9x19mm_BSD_DM81_mp5a3_blk",
+			"gm_75Rnd_762x39mm_AP_7N23_ak47_blk",
+			"gm_75Rnd_762x39mm_AP_7N23_mpikm_blk",
+			"gm_75Rnd_762x39mm_B_57N231_ak47_blk",
+			"gm_75Rnd_762x39mm_B_57N231_mpikm_blk",
+			"gm_75Rnd_762x39mm_B_M43_ak47_blk",
+			"gm_75Rnd_762x39mm_B_T_57N231P_ak47_blk",
+			"gm_75Rnd_762x39mm_B_T_57N231P_mpikm_blk",
+			"gm_75Rnd_762x39mm_B_T_M43_ak47_blk",
+			"gm_75Rnd_762x39mm_BSD_57N231U_ak47_blk",
+			"gm_75Rnd_762x39mm_BSD_57N231U_mpikm_blk",
+			"gm_7rnd_12ga_hk512_pellet",
+			"gm_7rnd_12ga_hk512_slug",
+			//launcherMags
+			"gm_1Rnd_2650mm_potato_dm11",
+			"gm_1Rnd_40mm_heat_pg7v_rpg7",
+			"gm_1Rnd_40mm_heat_pg7vl_rpg7",
+			"gm_1Rnd_44x537mm_heat_dm32_pzf44_2",
+			"gm_1Rnd_60mm_heat_dm12_pzf3",
+			"gm_1Rnd_60mm_heat_dm22_pzf3",
+			"gm_1Rnd_60mm_heat_dm32_pzf3",
+			"gm_1Rnd_64mm_heat_pg18",
+			"gm_1Rnd_66mm_heat_m72a3",
+			"gm_1Rnd_70mm_he_m585_fim43",
+			"gm_1Rnd_72mm_he_9m32m",
+			"gm_1Rnd_84x245mm_heat_t_DM12_carlgustaf",
+			"gm_1Rnd_84x245mm_heat_t_DM12a1_carlgustaf",
+			"gm_1Rnd_84x245mm_heat_t_DM22_carlgustaf",
+			"gm_1Rnd_84x245mm_heat_t_DM32_carlgustaf",
+			"gm_1Rnd_84x245mm_ILLUM_DM16_carlgustaf"
 		};
 	};
 
@@ -7642,7 +8529,22 @@ class CfgTraderCategories
 			"3Rnd_UGL_FlareGreen_F",
 			"3Rnd_UGL_FlareRed_F",
 			"3Rnd_UGL_FlareWhite_F",
-			"3Rnd_UGL_FlareYellow_F"
+			"3Rnd_UGL_FlareYellow_F",
+			//gm flares
+			"gm_1Rnd_265mm_flare_multi_grn_DM21",
+			"gm_1Rnd_265mm_flare_multi_nbc_DM47",
+			"gm_1Rnd_265mm_flare_multi_red_DM23",
+			"gm_1Rnd_265mm_flare_multi_red_gc",
+			"gm_1Rnd_265mm_flare_multi_wht_DM25",
+			"gm_1Rnd_265mm_flare_multi_yel_DM20",
+			"gm_1Rnd_265mm_flare_para_yel_DM16",
+			"gm_1Rnd_265mm_flare_single_grn_DM11",
+			"gm_1Rnd_265mm_flare_single_grn_gc",
+			"gm_1Rnd_265mm_flare_single_red_DM13",
+			"gm_1Rnd_265mm_flare_single_red_gc",
+			"gm_1Rnd_265mm_flare_single_wht_DM15",
+			"gm_1Rnd_265mm_flare_single_wht_gc",
+			"gm_1Rnd_265mm_flare_single_yel_DM10"
 		};
 	};
 
@@ -7682,7 +8584,7 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargothrow_ca.paa";
 		items[] =
 		{
-			"HandGrenade",
+			/*"HandGrenade",
 			"MiniGrenade",
 			"B_IR_Grenade",
 			"O_IR_Grenade",
@@ -7699,7 +8601,38 @@ class CfgTraderCategories
 			"IEDUrbanBig_Remote_Mag",
 			"IEDUrbanSmall_Remote_Mag",
 			"SatchelCharge_Remote_Mag",
-			"SLAMDirectionalMine_Wire_Mag"
+			"SLAMDirectionalMine_Wire_Mag",*/
+			//put magazine
+			"gm_mine_at_dm21",
+			"gm_mine_at_tm46",
+			"gm_mine_ap_dm31",
+			"gm_explosive_petn_charge",
+			"gm_explosive_plnp_charge",
+			"gm_mine_at_mn111",
+			//grenades
+			"gm_handgrenade_frag_dm41",
+			"gm_handgrenade_frag_dm41a1",
+			"gm_handgrenade_frag_dm51",
+			"gm_handgrenade_frag_dm51a1",
+			"gm_handgrenade_pracfrag_dm58", 
+			"gm_handgrenade_conc_dm51",
+			"gm_handgrenade_conc_dm51a1",
+			"gm_handgrenade_pracconc_dm58",
+			"gm_handgrenade_frag_m26",
+			"gm_handgrenade_frag_m26a1",
+			"gm_handgrenade_frag_rgd5",
+			"gm_smokeshell_grn_dm21",
+			"gm_smokeshell_red_dm23",
+			"gm_smokeshell_yel_dm26",
+			"gm_smokeshell_org_dm32",
+			"gm_smokeshell_wht_dm25",
+			"gm_smokeshell_grn_gc",
+			"gm_smokeshell_blk_gc",
+			"gm_smokeshell_red_gc",
+			"gm_smokeshell_yel_gc",
+			"gm_smokeshell_blu_gc",
+			"gm_smokeshell_org_gc",
+			"gm_smokeshell_wht_gc"
 		};
 	};
 
@@ -7988,7 +8921,6 @@ class CfgTraderCategories
 			"gm_sg542_blk",
 			"gm_sg542_ris_oli",
 			"gm_sg542_ris_blk",
-			"gm_svd_wud",
 			"gm_hk53a2_blk",
 			"gm_hk53a3_blk"
 		};
@@ -8046,7 +8978,11 @@ class CfgTraderCategories
 			"Exile_Weapon_DMR",
 			"Exile_Weapon_LeeEnfield",
 			"Exile_Weapon_m107",
-			"Exile_Weapon_ksvk"	
+			"Exile_Weapon_ksvk",
+			"gm_msg90_blk",
+			"gm_msg90a1_blk",
+			"gm_psg1_blk",
+			"gm_svd_wud"	
 		};
 	};
 
@@ -8108,7 +9044,166 @@ class CfgTraderCategories
 			"Exile_Car_MB4WD",
 			"Exile_Car_MB4WDOpen",
 			"gm_ge_bgs_w123_cargo",
-			"gm_ge_bgs_w253_cargo"
+			"gm_ge_bgs_w253_cargo",
+			"gm_dk_army_typ1200_cargo",
+			"gm_dk_army_typ247_cargo",
+			"gm_dk_army_typ253_cargo",
+			"gm_dk_army_typ253_mp",
+			"gm_dk_army_u1300l_container",
+			//West Germany
+			"gm_ge_army_bicycle_01_oli",
+			"gm_ge_army_fuchsa0_command",
+			"gm_ge_army_fuchsa0_engineer",
+			"gm_ge_army_fuchsa0_reconnaissance",
+			"gm_ge_army_iltis_cargo",
+			"gm_ge_army_iltis_mg3",
+			"gm_ge_army_iltis_milan",
+			"gm_ge_army_k125",
+			"gm_ge_army_kat1_451_cargo",
+			"gm_ge_army_kat1_451_container",
+			"gm_ge_army_kat1_451_reammo",
+			"gm_ge_army_kat1_451_refuel",
+			"gm_ge_army_kat1_452_container",
+			"gm_ge_army_kat1_454_cargo",
+			"gm_ge_army_kat1_454_reammo",
+			"gm_ge_army_kat1_463_mlrs",
+			"gm_ge_army_luchsa1",
+			"gm_ge_army_luchsa2",
+			"gm_ge_army_typ1200_cargo",
+			"gm_ge_army_typ247_cargo",
+			"gm_ge_army_typ247_firefighter",
+			"gm_ge_army_typ253_cargo",
+			"gm_ge_army_typ253_mp",
+			"gm_ge_army_u1300l_cargo",
+			"gm_ge_army_u1300l_container",
+			"gm_ge_army_u1300l_firefighter",
+			"gm_ge_army_u1300l_medic",
+			"gm_ge_army_u1300l_repair",
+			"gm_ge_army_w123_cargo",
+			"gm_ge_bgs_bicycle_01_grn",
+			"gm_ge_bgs_k125",
+			"gm_ge_bgs_typ253_cargo",
+			//East Germany
+			"gm_gc_army_bicycle_01_oli",
+			"gm_gc_army_brdm2",
+			"gm_gc_army_brdm2rkh",
+			"gm_gc_army_brdm2um",
+			"gm_gc_army_btr60pa",
+			"gm_gc_army_btr60pa_dshkm",
+			"gm_gc_army_btr60pb",
+			"gm_gc_army_btr60pu12",
+			"gm_gc_army_p601",
+			"gm_gc_army_uaz469_cargo",
+			"gm_gc_army_uaz469_dshkm",
+			"gm_gc_army_uaz469_spg9",
+			"gm_gc_army_ural375d_cargo",
+			"gm_gc_army_ural375d_medic",
+			"gm_gc_army_ural375d_mlrs",
+			"gm_gc_army_ural375d_refuel",
+			"gm_gc_army_ural4320_cargo",
+			"gm_gc_army_ural4320_reammo",
+			"gm_gc_army_ural4320_repair",
+			"gm_gc_army_ural44202",
+			"gm_gc_bgs_p601",
+			"gm_gc_bgs_uaz469_cargo",
+			"gm_gc_bgs_uaz469_spg9",
+			"gm_gc_bgs_ural375d_medic",
+			"gm_gc_bgs_ural375d_refuel",
+			"gm_gc_bgs_ural4320_cargo",
+			"gm_gc_bgs_ural4320_reammo",
+			"gm_gc_bgs_ural4320_repair",
+			//Poland
+			"gm_pl_army_brdm2",
+			"gm_pl_army_ot64",
+			"gm_pl_army_uaz469_cargo",
+			"gm_pl_army_uaz469_dshkm",
+			"gm_pl_army_ural375d_medic",
+			"gm_pl_army_ural375d_mlrs",
+			"gm_pl_army_ural375d_refuel",
+			"gm_pl_army_ural4320_cargo",
+			"gm_pl_army_ural4320_reammo",
+			"gm_pl_army_ural4320_repair",
+			//Civilians
+			"gm_gc_civ_p601",
+			"gm_gc_civ_ural375d_cargo",
+			"gm_gc_dp_p601",
+			"gm_gc_ff_p601",
+			"gm_gc_pol_p601",
+			"gm_ge_civ_typ1200",
+			"gm_ge_civ_typ247",
+			"gm_ge_civ_typ251",
+			"gm_ge_civ_typ253",
+			"gm_ge_civ_u1300l",
+			"gm_ge_civ_w123",
+			"gm_ge_dbp_bicycle_01_ylw",
+			"gm_ge_dbp_typ1200",
+			"gm_ge_dbp_typ247",
+			"gm_ge_dbp_typ251",
+			"gm_ge_dbp_w123",
+			"gm_ge_ff_typ1200",
+			"gm_ge_ff_typ247",
+			"gm_ge_ff_typ247_firefighter",
+			"gm_ge_ff_typ253",
+			"gm_ge_ff_u1300l_firefighter",
+			"gm_ge_ff_u1300l_medic",
+			"gm_ge_ff_w123",
+			"gm_ge_pol_bicycle_01_grn",
+			"gm_ge_pol_typ1200",
+			"gm_ge_pol_typ253",
+			"gm_ge_pol_w123",
+			"gm_ge_taxi_typ253",
+			"gm_ge_taxi_w123",
+			"gm_xx_civ_bicycle_01",
+			//Tracked
+			//Denmark
+			"gm_dk_army_bibera0",
+			"gm_dk_army_bpz2a0",
+			"gm_dk_army_Leopard1a3",
+			"gm_dk_army_m109",
+			"gm_dk_army_m113a1dk_apc",
+			"gm_dk_army_m113a1dk_command",
+			"gm_dk_army_m113a1dk_engineer",
+			"gm_dk_army_m113a1dk_medic",
+			"gm_dk_army_m113a2dk",
+			//West Germany
+			"gm_ge_army_bibera0",
+			"gm_ge_army_bpz2a0",
+			"gm_ge_army_gepard1a1",
+			"gm_ge_army_Leopard1a1",
+			"gm_ge_army_Leopard1a1a1",
+			"gm_ge_army_Leopard1a1a2",
+			"gm_ge_army_Leopard1a3",
+			"gm_ge_army_Leopard1a3a1",
+			"gm_ge_army_Leopard1a5",
+			"gm_ge_army_m109g",
+			"gm_ge_army_m113a1g_apc",
+			"gm_ge_army_m113a1g_apc_milan",
+			"gm_ge_army_m113a1g_command",
+			"gm_ge_army_m113a1g_medic",
+			"gm_ge_army_marder1a1a",
+			"gm_ge_army_marder1a1plus",
+			"gm_ge_army_marder1a2",
+			//East Germany
+			"gm_gc_army_2p16",
+			"gm_gc_army_2s1",
+			"gm_gc_army_bmp1sp2",
+			"gm_gc_army_pt76b",
+			"gm_gc_army_t55",
+			"gm_gc_army_t55a",
+			"gm_gc_army_t55ak",
+			"gm_gc_army_t55am2",
+			"gm_gc_army_t55am2b",
+			"gm_gc_army_zsu234v1",
+			//Poland
+			"gm_pl_army_2p16",
+			"gm_pl_army_2s1",
+			"gm_pl_army_bmp1sp2",
+			"gm_pl_army_pt76b",
+			"gm_pl_army_t55",
+			"gm_pl_army_t55a",
+			"gm_pl_army_t55ak",
+			"gm_pl_army_zsu234v1"
+
 		};
 	};
 
@@ -8147,7 +9242,48 @@ class CfgTraderCategories
 			"Exile_Chopper_Orca_BlackCustom",
 			"Exile_Chopper_Mohawk_FIA",
 			"Exile_Chopper_Huron_Black",
-			"Exile_Chopper_Hellcat_Green"
+			"Exile_Chopper_Hellcat_Green",
+			//Air
+			//West Germany
+			"gm_ge_airforce_do28d2",
+			"gm_ge_airforce_do28d2_medevac",
+			"gm_ge_army_bo105m_vbh",
+			"gm_ge_army_bo105p1m_vb",
+			"gm_ge_army_bo105p1m_vbh_swooper",
+			"gm_ge_army_bo105p_pah1",
+			"gm_ge_army_bo105p_pah1a1",
+			"gm_ge_army_ch53g",
+			"gm_ge_army_ch53gs",
+			"gm_ge_bgs_bo105m_vbh",
+			//East Germany
+			"gm_gc_airforce_l410s_salon",
+			"gm_gc_airforce_l410t",
+			"gm_gc_airforce_mi2p",
+			"gm_gc_airforce_mi2sr",
+			"gm_gc_airforce_mi2t",
+			"gm_gc_airforce_mi2urn",
+			"gm_gc_airforce_mi2us",
+			"gm_gc_bgs_mi2p",
+			"gm_gc_bgs_mi2us",
+			//Poland
+			"gm_pl_airforce_mi2ch",
+			"gm_pl_airforce_mi2p",
+			"gm_pl_airforce_mi2platan",
+			"gm_pl_airforce_mi2sr",
+			"gm_pl_airforce_mi2t",
+			"gm_pl_airforce_mi2urn",
+			"gm_pl_airforce_mi2urp",
+			"gm_pl_airforce_mi2urpg",
+			"gm_pl_airforce_mi2urs",
+			"gm_pl_airforce_mi2us",
+			//Civilians
+			"gm_gc_civ_l410s_passenger",
+			"gm_gc_civ_l410s_salon",
+			"gm_gc_civ_mi2p",
+			"gm_gc_civ_mi2r",
+			"gm_gc_civ_mi2sr",
+			"gm_ge_adak_bo105m_vbh",
+			"gm_ge_pol_bo105m_vbh"
 		};
 	};
 
@@ -8179,11 +9315,47 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"Exile_Plane_Cessna",
-			"Exile_Plane_AN2_Green",
-			"Exile_Plane_Ceasar",
-			"Exile_Plane_BlackfishInfantry",
-			"Exile_Plane_BlackfishVehicle"
+			//Air
+		//West Germany
+		"gm_ge_airforce_do28d2",
+		"gm_ge_airforce_do28d2_medevac",
+		"gm_ge_army_bo105m_vbh",
+		"gm_ge_army_bo105p1m_vb",
+		"gm_ge_army_bo105p1m_vbh_swooper",
+		"gm_ge_army_bo105p_pah1",
+		"gm_ge_army_bo105p_pah1a1",
+		"gm_ge_army_ch53g",
+		"gm_ge_army_ch53gs",
+		"gm_ge_bgs_bo105m_vbh",
+		//East Germany
+		"gm_gc_airforce_l410s_salon",
+		"gm_gc_airforce_l410t",
+		"gm_gc_airforce_mi2p",
+		"gm_gc_airforce_mi2sr",
+		"gm_gc_airforce_mi2t",
+		"gm_gc_airforce_mi2urn",
+		"gm_gc_airforce_mi2us",
+		"gm_gc_bgs_mi2p",
+		"gm_gc_bgs_mi2us",
+		//Poland
+		"gm_pl_airforce_mi2ch",
+		"gm_pl_airforce_mi2p",
+		"gm_pl_airforce_mi2platan",
+		"gm_pl_airforce_mi2sr",
+		"gm_pl_airforce_mi2t",
+		"gm_pl_airforce_mi2urn",
+		"gm_pl_airforce_mi2urp",
+		"gm_pl_airforce_mi2urpg",
+		"gm_pl_airforce_mi2urs",
+		"gm_pl_airforce_mi2us",
+		//Civilians
+		"gm_gc_civ_l410s_passenger",
+		"gm_gc_civ_l410s_salon",
+		"gm_gc_civ_mi2p",
+		"gm_gc_civ_mi2r",
+		"gm_gc_civ_mi2sr",
+		"gm_ge_adak_bo105m_vbh",
+		"gm_ge_pol_bo105m_vbh"
 		};
 	};
 
