@@ -7,9 +7,9 @@ if (!isServer) exitWith {};
 
 while {true} do
 {
-	if (daytime >= 19 || daytime < 8) then   // after 7pm and before 5am time multiplier changes
+	if (daytime >= 19 || daytime < 4) then   // after 7pm and before 5am time multiplier changes
 	{
-		setTimeMultiplier 24      // adjust this value for slower or faster night cycle ( 24 hours will take 1 hour )
+		setTimeMultiplier 12      // adjust this value for slower or faster night cycle ( 24 hours will take 1 hour )
 	}
 	else
 	{

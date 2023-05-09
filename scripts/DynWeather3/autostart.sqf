@@ -5,11 +5,11 @@
 [] execVM "\scripts\DynWeather3\tort_fog.sqf";
 [] execVM "\scripts\DynWeather3\tort_wind.sqf";
 */
-// -- Sunny --
-[0.3, 0.2, 0.5, 0] execVM "\scripts\DynWeather3\tort_overcast.sqf";
-[] execVM "\scripts\DynWeather3\tort_rain.sqf";
-[] execVM "\scripts\DynWeather3\tort_fog.sqf";
-[random 1, 0, 5, -0.5, 0.05] execVM "\scripts\DynWeather3\tort_wind.sqf";
+// -- Stormy and foggy --
+[0.7 + random 0.2, 0.5, 1, 0] execVM "\scripts\DynWeather3\tort_overcast.sqf";
+[random 1, 0, 1, 0.5, 0.5, 0.75] execVM "\scripts\DynWeather3\tort_rain.sqf";
+[0.1 + random 0.2, 0.1, 0.2 + random 0.4, random 0.7, random 0.5] execVM "\scripts\DynWeather3\tort_fog.sqf";
+[5 + random 5, 1, 15, 0, 0.5, 0.5] execVM "\scripts\DynWeather3\tort_wind.sqf";
 
 /*
 ==========================================================================
