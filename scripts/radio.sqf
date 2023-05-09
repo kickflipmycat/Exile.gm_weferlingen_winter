@@ -1,13 +1,7 @@
+// To be called via init of object
 _sound = selectRandom 
   [
-    "fortunate", // As defined by you in Description.ext
-    "paint",
-    "ride",
-    "shelter",
-    "springfield",
-    "watchtower",
-    "wasonly19redgum",
-    "theEnd"
+    "sound1" // Defined in Description.ext
   ];
 
 playSound _sound;
