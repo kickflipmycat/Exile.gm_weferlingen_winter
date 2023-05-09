@@ -1,0 +1,129 @@
+#define true 1
+#define false 0
+// Required for the XM8, do not remove!
+#include "RscDefines.hpp"
+
+#include "R3F_LOG\desc_include.h"
+
+///////////////////////////////////////////////////////////////////////////////
+// Server Settings - Modify at will
+///////////////////////////////////////////////////////////////////////////////
+author = "Exile Mod Team";
+onLoadName = "Exile Mod";
+onLoadMission= "www.exilemod.com";
+loadScreen = "exile_assets\texture\mod\logo.paa";
+disableChannels[] = {0, 2};
+OnLoadIntro = "";
+OnLoadIntroTime = false;
+OnLoadMissionTime = false;
+
+class Header
+{
+    gameType = Survive; // Do NOT change this
+    minPlayers = 1;
+    maxPlayers = 100;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// Exile Settings - Do not change these!
+///////////////////////////////////////////////////////////////////////////////
+forceRotorLibSimulation = 2;
+skipLobby = 1;
+joinUnassigned = 1;
+respawn = "BASE";
+respawnDelay = 120;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnButton = 1;
+respawnTemplates[] = {"Exile"};
+corpseManagerMode = 0;
+corpseLimit = 20;
+corpseRemovalMinTime = 1800;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 0;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+scriptedPlayer = 1;
+disabledAI = 1;
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+allowFunctionsLog = 1;
+enableDebugConsole[] = {
+      "76561198029421937" // chaddles
+      //"76561198314052695",  // pipo
+	  //"76561198005774164" //kombat
+};
+allowFunctionsRecompile = 0;
+showSquadRadar = 0;
+showUAVFeed = 0;
+reviveDelay = 6;
+reviveForceRespawnDelay = 3;
+reviveBleedOutDelay = 120;
+unsafeCVL = 1;
+
+showHUD[] =
+{
+    true,   // Scripted HUD (same as showHUD command)
+    true,   // Vehicle + soldier info
+    true,   // Vehicle radar
+    true,   // Vehicle compass
+    true,   // Tank direction indicator
+    false,  // Commanding menu
+    false,  // Group Bar
+    true,   // HUD Weapon Cursors
+    true   // Vehicle Panel (Required for GPS)
+};
+class RscTitles 
+{   
+    // Status Bar 
+    #include "Custom\StatusBar\statusBar.hpp"
+	#include "addons\KillMessage\KillMessages.hpp"
+	//Rockets
+	#include "custom\MWarning\dialog.hpp"	
+	//#include "VEMFr_client\gui\RscDisplayVEMFrClient.hpp"
+	//#include "VEMFr_client\gui\RscDisplayBaseAttack.hpp"
+};
+
+#include "config.cpp"
+class CfgSounds
+{
+	sounds[] = {};
+	class MWarningAlarm
+	{
+		name = "MWarningAlarm";
+		sound[] = {"custom\MWarning\alarm.ogg", 0.4, 0.8};
+		titles[] = {};
+	};
+};
+class CfgNetworkMessages
+{
+	class KillMessages
+    {
+        module = "KillMessages";
+        parameters[] = {"STRING","STRING","OBJECT","OBJECT"};
+    };
+};
+class CfgRemoteExec
+{
+    class Functions
+    {
+        mode = 2;
+        jip = 1;
+
+        class ExileServer_system_network_dispatchIncomingMessage
+        {
+            allowedTargets = 2;
+        };
+        class bis_fnc_debugconsoleexec { allowedTargets = 2; };
+    };
+
+    class Commands
+    {
+        mode = 2;
+        jip = 1;
+    };
+};
+
+zeusCompositionScriptLevel = 2;
