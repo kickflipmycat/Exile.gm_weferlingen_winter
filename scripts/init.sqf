@@ -5,7 +5,7 @@
 [] execVM "scripts\fn_AdvancedPickupRopeInit.sqf";
 [] execVM "scripts\adminmenu.sqf";
 //[] execVM "scripts\Holster.sqf";
-//[] execVM "scripts\DynamicAmbient.sqf";
+[] execVM "scripts\DynamicAmbient.sqf";
 //[] execVM "scripts\DynWeather.sqf";
 //[] execVM "scripts\DynWeather3\autostart.sqf";
 

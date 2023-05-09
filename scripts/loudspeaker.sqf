@@ -32,7 +32,7 @@ _sounds = ["sound","sound1"]; //Name of the sound file replace to suit your need
 _play = [_loudspeakers, _sounds] spawn GOM_fnc_baseLoudspeakers; */
 
 _loudspeakers = [speaker1,speaker2,speaker3,speaker4];  
-_sounds = ["fortunate","paint","shelter","springfield","watchtower","wasonly19redgum","theEnd"];  
+_sounds = ["sound1","sound2"];  
  
 _play = [_loudspeakers, _sounds] spawn GOM_fnc_baseLoudspeakers;  
 

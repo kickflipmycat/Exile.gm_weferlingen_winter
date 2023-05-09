@@ -1,58 +1,85 @@
-// S.O.G. Prairie Fire Dynamic Ambient Music script by JackFighter
+// global mobilisation edits
+// categories to be refined
+// original script SOG music by JackFighter 
 // Definition of tracks
 dayActionAmbient = [
-	"vn_contact",
-	"vn_time_to_leave",
-	"vn_imminent_attack",
-	"vn_hell_on_earth",
-	"vn_trippin",
-	"vn_drafted",
-	"vn_route9",
-	"vn_voodoo_girl",
-	"vn_tequila_highway",
-	"vn_there_it_is",
-	"vn_fire_in_the_sky"
+	"gm_preprations",
+"gm_medley",
+"gm_limits",
+"gm_note",
+"gm_intermezzo",
+"gm_1983",
+"gm_longplay",
+"gm_warmup",
+"gm_uncertain",
+"gm_panzerkraft",
+"gm_leopards",
+"gm_remaining",
+"gm_longstrides",
+"gm_response",
+"gm_scatter",
+"gm_death",
+"gm_motschuetzen"
 ];
 
 dayCalmAmbient = [
-	"vn_prairie_fire",
-	"vn_calm_before_the_storm",
-	"vn_behind_enemy_lines",
-	"vn_prayer_for_the_fallen",
-	"vn_the_village",
-	"vn_deadly_jungle",
-	"vn_enemy_territory",
-	"vn_stealth_mode",
-	"vn_shadows_of_the_forest",
-	"vn_im_home",
-	"vn_another_life",
-	"vn_unsung_heroes",
-	"vn_blues_for_suzy",
-	"vn_kitty_bar_blues",
-	"vn_freedom_bird",
-	"vn_up_here_looking_down",
-	"vn_jungle_boots"
+"gm_preprations",
+"gm_medley",
+"gm_limits",
+"gm_note",
+"gm_intermezzo",
+"gm_1983",
+"gm_longplay",
+"gm_warmup",
+"gm_uncertain",
+"gm_panzerkraft",
+"gm_leopards",
+"gm_remaining",
+"gm_longstrides",
+"gm_response",
+"gm_scatter",
+"gm_death",
+"gm_motschuetzen"
 ];
 
 nightActionAmbient = [
-	"vn_contact",
-	"vn_time_to_leave",
-	"vn_imminent_attack",
-	"vn_hell_on_earth"
+"gm_preprations",
+"gm_medley",
+"gm_limits",
+"gm_note",
+"gm_intermezzo",
+"gm_1983",
+"gm_longplay",
+"gm_warmup",
+"gm_uncertain",
+"gm_panzerkraft",
+"gm_leopards",
+"gm_remaining",
+"gm_longstrides",
+"gm_response",
+"gm_scatter",
+"gm_death",
+"gm_motschuetzen"
 ];
 
 nightCalmAmbient = [
-	"vn_prairie_fire",
-	"vn_calm_before_the_storm",
-	"vn_behind_enemy_lines",
-	"vn_prayer_for_the_fallen",
-	"vn_the_village",
-	"vn_deadly_jungle",
-	"vn_enemy_territory",
-	"vn_stealth_mode",
-	"vn_shadows_of_the_forest",
-	"vn_im_home",
-	"vn_another_life"
+"gm_preprations",
+"gm_medley",
+"gm_limits",
+"gm_note",
+"gm_intermezzo",
+"gm_1983",
+"gm_longplay",
+"gm_warmup",
+"gm_uncertain",
+"gm_panzerkraft",
+"gm_leopards",
+"gm_remaining",
+"gm_longstrides",
+"gm_response",
+"gm_scatter",
+"gm_death",
+"gm_motschuetzen"
 ];
 
 //Script itself
