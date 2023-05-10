@@ -1,4 +1,4 @@
-R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
+aR3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
         "B_G_Offroad_01_armed_F",
 		"Exile_Car_HMMWV_M134_Green",
@@ -321,7 +321,6 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 		"O_T_Truck_03_device_ghex_F",
 		"O_Truck_03_transport_F",
         "O_Truck_03_covered_F",		
-
 		"CUP_B_T810_Armed_CZ_WDL",               //			Tatra T810 (MG/Covered)
 		"CUP_B_T810_Unarmed_CZ_WDL",               //			Tatra T810 (Covered)
 		"CUP_B_T810_Refuel_CZ_WDL",               //			Tatra T810 (Fuel)
@@ -332,23 +331,18 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 		"CUP_B_T810_Refuel_CZ_DES",               //			Tatra T810 (Fuel)
 		"CUP_B_T810_Reammo_CZ_DES",               //			Tatra T810 (Ammo)
 		"CUP_B_T810_Repair_CZ_DES",               //			Tatra T810 (Repair)
-
 		"CUP_B_S1203_Ambulance_CDF",               //			Å koda S1203 (Ambulance)
-
 		"CUP_B_MTLB_pk_CDF",               //			MT-LB LV
 		"CUP_B_MTLB_pk_Winter_CDF",               //			MT-LB LV (Winter)
 		"CUP_B_MTLB_pk_FIA",               //			MT-LB LV
-
 		"CUP_B_FV510_GB_D_SLAT",               //			FV510 Warrior (SLAT - Desert)
 		"CUP_B_FV510_GB_W_SLAT",               //			FV510 Warrior (SLAT - Woodland)
 		"CUP_B_FV510_GB_D",               //			FV510 Warrior (Desert)
 		"CUP_B_FV510_GB_W",               //			FV510 Warrior (Woodland)
-
 		"CUP_B_MCV80_GB_D_SLAT",               //			MCV-80 Warrior (SLAT - Desert)
 		"CUP_B_MCV80_GB_W_SLAT",               //			MCV-80 Warrior (SLAT - Woodland)
 		"CUP_B_MCV80_GB_D",               //			MCV-80 Warrior (Desert)
 		"CUP_B_MCV80_GB_W",               //			MCV-80 Warrior (Woodland)
-
 		"CUP_B_BAF_Coyote_L2A1_D",               //			Coyote L2A1 (Desert)
 		//"CUP_B_BAF_Coyote_GMG_D",               //			Coyote GMG (Desert)
 		//"CUP_B_BAF_Coyote_GMG_W",               //			Coyote GMG (Woodland)
@@ -857,7 +851,6 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 		"CUP_O_V3S_Refuel_TKM",               //		Praga V3S (Refuel)			
 		"CUP_O_V3S_Repair_TKM",               //		Praga V3S (Repair)			
 		"CUP_O_V3S_Rearm_TKM",               //		Praga V3S (Rearm)			
-		
 		"CUP_O_T34_TKA",               //		T-34-85M			
 		"CUP_O_T55_TK",               //		T-55			
 		"CUP_O_T55_CHDKZ",               //		T-55			
@@ -2658,7 +2651,209 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 		["CUP_B_RHIB2Turret_USMC", 25],//			RHIB (Mk19)	BLUFOR	United States Marine Corps	Boats
 		["CUP_B_Zodiac_USMC", 25],//			Zodiac	BLUFOR	United States Marine Corps	Boats
 		["CUP_B_LCU1600_USMC", 25],//			LCU-1610
-		["CUP_B_MK10_GB", 25]//			LCU Mk.10		
+		["CUP_B_MK10_GB", 25],//			LCU Mk.10	
+		//GM MOD start
+		//["CUP_B_MK10_GB", 25]//	
+		["gm_dk_army_typ1200_cargo", 200],
+		["gm_dk_army_typ247_cargo", 200],
+		["gm_dk_army_typ253_cargo", 200],
+		["gm_dk_army_typ253_mp", 200],
+		["gm_dk_army_u1300l_container", 200],
+		//West Germany
+		["gm_ge_army_bicycle_01_oli", 200],
+		["gm_ge_army_fuchsa0_command", 200],
+		["gm_ge_army_fuchsa0_engineer", 200],
+		["gm_ge_army_fuchsa0_reconnaissance", 200],
+		["gm_ge_army_iltis_cargo", 200],
+		["gm_ge_army_iltis_mg3", 200],
+		["gm_ge_army_iltis_milan", 200],
+		["gm_ge_army_k125", 200],
+		["gm_ge_army_kat1_451_cargo", 200],
+		["gm_ge_army_kat1_451_container", 200],
+		["gm_ge_army_kat1_451_reammo", 200],
+		["gm_ge_army_kat1_451_refuel", 200],
+		["gm_ge_army_kat1_452_container", 200],
+		["gm_ge_army_kat1_454_cargo", 200],
+		["gm_ge_army_kat1_454_reammo", 200],
+		["gm_ge_army_kat1_463_mlrs", 200],
+		["gm_ge_army_luchsa1", 200],
+		["gm_ge_army_luchsa2", 200],
+		["gm_ge_army_typ1200_cargo", 200],
+		["gm_ge_army_typ247_cargo", 200],
+		["gm_ge_army_typ247_firefighter", 200],
+		["gm_ge_army_typ253_cargo", 200],
+		["gm_ge_army_typ253_mp", 200],
+		["gm_ge_army_u1300l_cargo", 200],
+		["gm_ge_army_u1300l_container", 200],
+		["gm_ge_army_u1300l_firefighter", 200],
+		["gm_ge_army_u1300l_medic", 200],
+		["gm_ge_army_u1300l_repair", 200],
+		["gm_ge_army_w123_cargo", 200],
+		["gm_ge_bgs_bicycle_01_grn", 200],
+		["gm_ge_bgs_k125", 200],
+		["gm_ge_bgs_typ253_cargo", 200],
+		//East Germany
+		["gm_gc_army_bicycle_01_oli", 200],
+		["gm_gc_army_brdm2", 200],
+		["gm_gc_army_brdm2rkh", 200],
+		["gm_gc_army_brdm2um", 200],
+		["gm_gc_army_btr60pa", 200],
+		["gm_gc_army_btr60pa_dshkm", 200],
+		["gm_gc_army_btr60pb", 200],
+		["gm_gc_army_btr60pu12", 200],
+		["gm_gc_army_p601", 200],
+		["gm_gc_army_uaz469_cargo", 200],
+		["gm_gc_army_uaz469_dshkm", 200],
+		["gm_gc_army_uaz469_spg9", 200],
+		["gm_gc_army_ural375d_cargo", 200],
+		["gm_gc_army_ural375d_medic", 200],
+		["gm_gc_army_ural375d_mlrs", 200],
+		["gm_gc_army_ural375d_refuel", 200],
+		["gm_gc_army_ural4320_cargo", 200],
+		["gm_gc_army_ural4320_reammo", 200],
+		["gm_gc_army_ural4320_repair", 200],
+		["gm_gc_army_ural44202", 200],
+		["gm_gc_bgs_p601", 200],
+		["gm_gc_bgs_uaz469_cargo", 200],
+		["gm_gc_bgs_uaz469_spg9", 200],
+		["gm_gc_bgs_ural375d_medic", 200],
+		["gm_gc_bgs_ural375d_refuel", 200],
+		["gm_gc_bgs_ural4320_cargo", 200],
+		["gm_gc_bgs_ural4320_reammo", 200],
+		["gm_gc_bgs_ural4320_repair", 200],
+		//Poland
+		["gm_pl_army_brdm2", 200],
+		["gm_pl_army_ot64", 200],
+		["gm_pl_army_uaz469_cargo", 200],
+		["gm_pl_army_uaz469_dshkm", 200],
+		["gm_pl_army_ural375d_medic", 200],
+		["gm_pl_army_ural375d_mlrs", 200],
+		["gm_pl_army_ural375d_refuel", 200],
+		["gm_pl_army_ural4320_cargo", 200],
+		["gm_pl_army_ural4320_reammo", 200],
+		["gm_pl_army_ural4320_repair", 200],
+		//Civilians
+		["gm_gc_civ_p601", 200],
+		["gm_gc_civ_ural375d_cargo", 200],
+		["gm_gc_dp_p601", 200],
+		["gm_gc_ff_p601", 200],
+		["gm_gc_pol_p601", 200],
+		["gm_ge_civ_typ1200", 200],
+		["gm_ge_civ_typ247", 200],
+		["gm_ge_civ_typ251", 200],
+		["gm_ge_civ_typ253", 200],
+		["gm_ge_civ_u1300l", 200],
+		["gm_ge_civ_w123", 200],
+		["gm_ge_dbp_bicycle_01_ylw", 200],
+		["gm_ge_dbp_typ1200", 200],
+		["gm_ge_dbp_typ247", 200],
+		["gm_ge_dbp_typ251", 200],
+		["gm_ge_dbp_w123", 200],
+		["gm_ge_ff_typ1200", 200],
+		["gm_ge_ff_typ247", 200],
+		["gm_ge_ff_typ247_firefighter", 200],
+		["gm_ge_ff_typ253", 200],
+		["gm_ge_ff_u1300l_firefighter", 200],
+		["gm_ge_ff_u1300l_medic", 200],
+		["gm_ge_ff_w123", 200],
+		["gm_ge_pol_bicycle_01_grn", 200],
+		["gm_ge_pol_typ1200", 200],
+		["gm_ge_pol_typ253", 200],
+		["gm_ge_pol_w123", 200],
+		["gm_ge_taxi_typ253", 200],
+		["gm_ge_taxi_w123", 200],
+		["gm_xx_civ_bicycle_01", 200],
+		//Tracked
+		//Denmark
+		["gm_dk_army_bibera0", 200],
+		["gm_dk_army_bpz2a0", 200],
+		["gm_dk_army_Leopard1a3", 200],
+		["gm_dk_army_m109", 200],
+		["gm_dk_army_m113a1dk_apc", 200],
+		["gm_dk_army_m113a1dk_command", 200],
+		["gm_dk_army_m113a1dk_engineer", 200],
+		["gm_dk_army_m113a1dk_medic", 200],
+		["gm_dk_army_m113a2dk", 200],
+		//West Germany
+		["gm_ge_army_bibera0", 200],
+		["gm_ge_army_bpz2a0", 200],
+		["gm_ge_army_gepard1a1", 200],
+		["gm_ge_army_Leopard1a1", 200],
+		["gm_ge_army_Leopard1a1a1", 200],
+		["gm_ge_army_Leopard1a1a2", 200],
+		["gm_ge_army_Leopard1a3", 200],
+		["gm_ge_army_Leopard1a3a1", 200],
+		["gm_ge_army_Leopard1a5", 200],
+		["gm_ge_army_m109g", 200],
+		["gm_ge_army_m113a1g_apc", 200],
+		["gm_ge_army_m113a1g_apc_milan", 200],
+		["gm_ge_army_m113a1g_command", 200],
+		["gm_ge_army_m113a1g_medic", 200],
+		["gm_ge_army_marder1a1a", 200],
+		["gm_ge_army_marder1a1plus", 200],
+		["gm_ge_army_marder1a2", 200],
+		//East Germany
+		["gm_gc_army_2p16", 200],
+		["gm_gc_army_2s1", 200],
+		["gm_gc_army_bmp1sp2", 200],
+		["gm_gc_army_pt76b", 200],
+		["gm_gc_army_t55", 200],
+		["gm_gc_army_t55a", 200],
+		["gm_gc_army_t55ak", 200],
+		["gm_gc_army_t55am2", 200],
+		["gm_gc_army_t55am2b", 200],
+		["gm_gc_army_zsu234v1", 200],
+		//Poland
+		["gm_pl_army_2p16", 200],
+		["gm_pl_army_2s1", 200],
+		["gm_pl_army_bmp1sp2", 200],
+		["gm_pl_army_pt76b", 200],
+		["gm_pl_army_t55", 200],
+		["gm_pl_army_t55a", 200],
+		["gm_pl_army_t55ak", 200],
+		["gm_pl_army_zsu234v1", 200],
+		//Air
+		//West Germany
+		["gm_ge_airforce_do28d2", 200],
+		["gm_ge_airforce_do28d2_medevac", 200],
+		["gm_ge_army_bo105m_vbh", 200],
+		["gm_ge_army_bo105p1m_vb", 200],
+		["gm_ge_army_bo105p1m_vbh_swooper", 200],
+		["gm_ge_army_bo105p_pah1", 200],
+		["gm_ge_army_bo105p_pah1a1", 200],
+		["gm_ge_army_ch53g", 200],
+		["gm_ge_army_ch53gs", 200],
+		["gm_ge_bgs_bo105m_vbh", 200],
+		//East Germany
+		["gm_gc_airforce_l410s_salon", 200],
+		["gm_gc_airforce_l410t", 200],
+		["gm_gc_airforce_mi2p", 200],
+		["gm_gc_airforce_mi2sr", 200],
+		["gm_gc_airforce_mi2t", 200],
+		["gm_gc_airforce_mi2urn", 200],
+		["gm_gc_airforce_mi2us", 200],
+		["gm_gc_bgs_mi2p", 200],
+		["gm_gc_bgs_mi2us", 200],
+		//Poland
+		["gm_pl_airforce_mi2ch", 200],
+		["gm_pl_airforce_mi2p", 200],
+		["gm_pl_airforce_mi2platan", 200],
+		["gm_pl_airforce_mi2sr", 200],
+		["gm_pl_airforce_mi2t", 200],
+		["gm_pl_airforce_mi2urn", 200],
+		["gm_pl_airforce_mi2urp", 200],
+		["gm_pl_airforce_mi2urpg", 200],
+		["gm_pl_airforce_mi2urs", 200],
+		["gm_pl_airforce_mi2us", 200],
+		//Civilians
+		["gm_gc_civ_l410s_passenger", 200],
+		["gm_gc_civ_l410s_salon", 200],
+		["gm_gc_civ_mi2p", 200],
+		["gm_gc_civ_mi2r", 200],
+		["gm_gc_civ_mi2sr", 200],
+		["gm_ge_adak_bo105m_vbh", 200],
+		["gm_ge_pol_bo105m_vbh", 200]
+			
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
