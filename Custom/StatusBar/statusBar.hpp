@@ -22,7 +22,7 @@ class StatusBar
 			x = safezoneX;
 			y = safeZoneY + safeZoneH - 40 * pixelH;
 			w = safeZoneW;
-			h = 30 * pixelH;
+			h = 40 * pixelH; //was 30
 			shadow = 2;
 			font = "OrbitronLight";
 			size = 0.04;
