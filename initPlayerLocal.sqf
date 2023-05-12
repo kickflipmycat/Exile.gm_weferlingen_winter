@@ -9,7 +9,8 @@
 [] execVM "custom\MWarning\init.sqf";
 
 [] execVM "scripts\DynamicAmbient.sqf";
-
+//[] execVM "scripts\ROS_SitDown.sqf";
+//[] execVM "scripts\Holster.sqf";
 /**
  * Created with Exile Mod 3DEN Plugin
  * www.exilemod.com
@@ -174,3 +175,16 @@ while {darkMapFixRunning} do {
     sleep 1; 
 };
 */
+
+//chaddles stamina & sway code edit 190122
+waitUntil {!isnull player};
+
+player enableStamina false;
+
+player setCustomAimCoef 0;
+
+player addEventHandler ["Respawn", {player enableStamina false}];
+
+player addEventHandler ["Respawn", {player setCustomAimCoef 0.1}];
+
+
