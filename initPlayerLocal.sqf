@@ -8,6 +8,7 @@
 //Rockets
 [] execVM "custom\MWarning\init.sqf";
 
+[] execVM "scripts\DynamicAmbient.sqf";
 
 /**
  * Created with Exile Mod 3DEN Plugin
