@@ -7,7 +7,7 @@ GOM_fnc_baseLoudspeakers = {
 	while {GOM_fnc_basePlaySounds} do {
 
 		//sleep random [300,600,900]; //Amount of random time it will take to play in seconds. I recommend you keep it, currently set at 5 minute, 10 minute and 15 minute random intervals
-		sleep 500;
+		sleep 600;
 		{
 
 			_sound = selectRandom _sounds;

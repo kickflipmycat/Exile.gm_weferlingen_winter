@@ -1,7 +1,7 @@
 // To be called via init of object
 _sound = selectRandom 
   [
- "gm_preprations",
+ 	"gm_preprations",
 	"gm_medley",
 	"gm_limits",
 	"gm_note",
