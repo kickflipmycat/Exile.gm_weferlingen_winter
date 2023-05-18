@@ -7,7 +7,7 @@
 //[] execVM "scripts\Holster.sqf";
 //[] execVM "scripts\DynamicAmbient.sqf";
 //[] execVM "scripts\DynWeather.sqf";
-[] execVM "scripts\DynWeather3\autostart.sqf";
+//[] execVM "scripts\DynWeather3\autostart.sqf";
 
 
 

@@ -185,6 +185,6 @@ player setCustomAimCoef 0;
 
 player addEventHandler ["Respawn", {player enableStamina false}];
 
-player addEventHandler ["Respawn", {player setCustomAimCoef 0.1}];
+player addEventHandler ["Respawn", {player setCustomAimCoef 0}];
 
 
