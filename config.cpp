@@ -12931,21 +12931,33 @@ class CfgInteractionModels
 		};
 	};
 
-	class WoodSource
-	{
-		name = "Trees";
-		models[] = 
-		{
-			" t_",
-			" bo_t_",
-
-			// A2 trees
-            " str_",
-            " Smrk_",
-            " les_",
-            " brg_"			
-		};
-	};
+    class WoodSource
+    {
+        name = "Trees";
+        models[] = 
+        {
+            "jablon",
+            "palm",
+            "banana",
+            "t_",
+            "bot",
+            // A2 trees
+            "str",
+            "Smrk",
+            "les",
+            "brg",
+            "t_ficus_medium_f",
+            "t_ficus_small_f",
+            "t_cocosnucifera_tall_f",
+            "t_inocarpus_f",
+            "d_treestump_natural_large_f",
+            "t_palaquium_f",
+            "b_calochlaena_f",
+            "str",
+            "jbad_t_amygdalusc2s",
+            "jbadt"
+        };
+    };
 
 	// TODO: Add https://community.bistudio.com/wikidata/images/thumb/6/60/Arma3_CfgVehicles_Land_Tank_rust_F.jpg/150px-Arma3_CfgVehicles_Land_Tank_rust_F.jpg
 	class FuelSource
