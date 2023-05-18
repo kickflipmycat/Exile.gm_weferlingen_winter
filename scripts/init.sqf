@@ -1,4 +1,4 @@
-CHADDLES EDIT 300522
+//CHADDLES EDIT 300522
 [] execVM "scripts\fn_advancedRappellinginit.sqf";
 [] execVM "scripts\fn_advancedSlingLoadingInit.sqf";
 [] execVM "scripts\fn_advancedTowingInit.sqf";
