@@ -8691,6 +8691,8 @@ class CfgExileArsenal
 	class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
 	class Exile_Item_ZipTie						{ quality = 1; price = 250; };
 	class Exile_Item_WoodPlank						{ quality = 1; price = 10; };
+	class Exile_Item_FloodLightKit						{ quality = 1; price = 700; };
+	class Exile_Item_PortableGeneratorKit				{ quality = 1; price = 700; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
@@ -14656,9 +14658,7 @@ class CfgTraderCategories
 			"Exile_Item_MetalHedgehogKit",
 			"Exile_Item_Cement",
 			"Exile_Item_Sand",
-			"Exile_Item_MobilePhone"
-			/*
-			--Unused--
+			"Exile_Item_MobilePhone",
 			"Exile_Item_SprayCan_Black",
 			"Exile_Item_SprayCan_Red",
 			"Exile_Item_SprayCan_Green",
@@ -14672,7 +14672,7 @@ class CfgTraderCategories
 			"Exile_Item_SleepingMat",
 			"Exile_Item_Defibrillator",
 			"Exile_Item_Wrench",
-			"Exile_Item_Rope"*/
+			"Exile_Item_Rope"
 							
 		};
 	};
@@ -14843,7 +14843,9 @@ class CfgTraderCategories
 			"gm_repairkit_01",
 			"gm_watch_kosei_80",
 			"Exile_Item_WoodPlank",
-			"Exile_Melee_Axe"			
+			"Exile_Melee_Axe",
+			"Exile_Item_FloodLightKit",
+			"Exile_Item_PortableGeneratorKit"		
 		};
 	};
 
