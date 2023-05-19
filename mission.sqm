@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=27;
+		nextID=32;
 	};
 	class Camera
 	{
-		pos[]={2285.0483,347.35013,19148.125};
-		dir[]={0.049411096,-0.60560697,0.79423732};
-		up[]={0.037603386,0.79575992,0.60444534};
-		aside[]={0.99807739,7.2264811e-008,-0.062092643};
+		pos[]={17331.66,173.96587,17900.266};
+		dir[]={0.2240269,-0.96994817,0.094962314};
+		up[]={0.89305001,0.24322389,0.37855378};
+		aside[]={0.390275,6.4355845e-008,-0.9207015};
 	};
 };
 binarizationWanted=0;
-sourceName="TRADERS_GM_BLANK";
+sourceName="Exile";
 addons[]=
 {
 	"exile_client",
@@ -1999,12 +1999,12 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={986.237,128.724,8097.1958};
-			name="TraderZoneRhode";
+			name="ExileTraderZoneRhode";
 			markerType="ELLIPSE";
 			type="";
 			alpha=0.59761685;
-			a=200;
-			b=200;
+			a=150;
+			b=150;
 			id=160;
 			atlOffset=23.462517;
 		};
@@ -2108,12 +2108,12 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={2300.0449,107.987,19365.264};
-			name="TraderZoneForest";
+			name="ExileTraderZoneForest";
 			markerType="ELLIPSE";
 			type="";
 			alpha=0.59761685;
-			a=40;
-			b=40;
+			a=150;
+			b=150;
 			id=271;
 			atlOffset=-0.00019836426;
 		};
@@ -2339,14 +2339,15 @@ class Mission
 		class Item36
 		{
 			dataType="Marker";
-			position[]={19962.789,151.57542,4516.4028};
-			name="TraderZoneHorsingen";
+			position[]={19962.789,151.575,4516.4028};
+			name="ExileTraderZoneHorsingen";
 			markerType="ELLIPSE";
 			type="";
 			alpha=0.59761685;
-			a=100;
-			b=100;
+			a=150;
+			b=150;
 			id=474;
+			atlOffset=-0.00042724609;
 		};
 		class Item37
 		{
@@ -2544,14 +2545,15 @@ class Mission
 		class Item44
 		{
 			dataType="Marker";
-			position[]={17331.66,74.482864,17925.266};
-			name="TraderZoneRatzlingen";
+			position[]={17331.66,74.483002,17925.266};
+			name="ExileTraderZoneRatzlingen";
 			markerType="ELLIPSE";
 			type="";
 			alpha=0.59761685;
-			a=50;
-			b=50;
+			a=150;
+			b=150;
 			id=531;
+			atlOffset=0.0001373291;
 		};
 		class Item45
 		{
