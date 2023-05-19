@@ -8,7 +8,7 @@
  * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
- #include "xs\spawn\CfgBaseSpawn.hpp"
+
 
 class CfgClans
 {
@@ -8690,6 +8690,8 @@ class CfgExileArsenal
 	class Exile_Item_ToiletPaper					{ quality = 1; price = 5; };
 	class Exile_Item_ZipTie						{ quality = 1; price = 250; };
 	class Exile_Item_WoodPlank						{ quality = 1; price = 10; };
+	class Exile_Item_FloodLightKit						{ quality = 1; price = 700; };
+	class Exile_Item_PortableGeneratorKit				{ quality = 1; price = 700; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
@@ -11268,12 +11270,6 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
-	//Spawn Selection by bambam
-	ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick.sqf";
-	ExileClient_gui_selectSpawnLocation_show = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_show.sqf";
-	ExileClient_gui_selectSpawnLocation_zoomToMarker = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_zoomToMarker.sqf";
-	ExileClient_gui_selectSpawnLocation_event_onListBoxSelectionChanged = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_event_onListBoxSelectionChanged.sqf";
-	ExileServer_object_player_createBambi = "xs\spawn\Overwrites\ExileServer_object_player_createBambi.sqf";
 	//enigma revive script
 	ExileClient_object_player_death_startBleedingOut = "custom\EnigmaRevive\ExileClient_object_player_death_startBleedingOut.sqf"; //Happys Revive
 	ExileClient_object_player_event_onInventoryOpened = "custom\EnigmaRevive\ExileClient_object_player_event_onInventoryOpened.sqf"; //Happys Revive AntiDupe ---NEW with v0.65
@@ -11300,7 +11296,7 @@ class CfgExileCustomCode
 	//ExileServer_system_database_connect = "Exile_Server_Overrides\ExileServer_system_database_connect.sqf";
 	ExileServer_system_database_handleBig = "Exile_Server_Overrides\ExileServer_system_database_handleBig.sqf";
 	ExileServer_system_process_noobFilter = "Exile_Server_Overrides\ExileServer_system_process_noobFilter.sqf";
-	//ExileServer_object_player_createBambi = "Exile_Server_Overrides\ExileServer_object_player_createBambi.sqf";/////// removed due to xspawn 
+	ExileServer_object_player_createBambi = "Exile_Server_Overrides\ExileServer_object_player_createBambi.sqf";/////// removed due to xspawn 
 	ExileServer_object_player_database_load = "Exile_Server_Overrides\ExileServer_object_player_database_load.sqf";
 	ExileServer_object_vehicle_database_load = "Exile_Server_Overrides\ExileServer_object_vehicle_database_load.sqf";
 	//ExileServer_object_player_event_onMpKilled = "Exile_Server_Overrides\ExileServer_object_player_event_onMpKilled.sqf";//////
@@ -14670,9 +14666,7 @@ class CfgTraderCategories
 			"Exile_Item_MetalHedgehogKit",
 			"Exile_Item_Cement",
 			"Exile_Item_Sand",
-			"Exile_Item_MobilePhone"
-			/*
-			--Unused--
+			"Exile_Item_MobilePhone",
 			"Exile_Item_SprayCan_Black",
 			"Exile_Item_SprayCan_Red",
 			"Exile_Item_SprayCan_Green",
@@ -14686,7 +14680,7 @@ class CfgTraderCategories
 			"Exile_Item_SleepingMat",
 			"Exile_Item_Defibrillator",
 			"Exile_Item_Wrench",
-			"Exile_Item_Rope"*/
+			"Exile_Item_Rope"
 							
 		};
 	};
@@ -14857,7 +14851,9 @@ class CfgTraderCategories
 			"gm_repairkit_01",
 			"gm_watch_kosei_80",
 			"Exile_Item_WoodPlank",
-			"Exile_Melee_Axe"			
+			"Exile_Melee_Axe",
+			"Exile_Item_FloodLightKit",
+			"Exile_Item_PortableGeneratorKit"		
 		};
 	};
 
