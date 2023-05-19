@@ -8,7 +8,7 @@
  * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
- 
+ #include "xs\spawn\CfgBaseSpawn.hpp"
 
 class CfgClans
 {
@@ -8665,8 +8665,7 @@ class CfgExileArsenal
 	class Exile_Item_Vishpirin						{ quality = 1; price = 300; };
 	class Exile_Item_Bandage	                    { quality = 1; price = 100; };
 	class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
-
-	//class Exile_Item_Defibrillator				{ quality = 1; price = 7500; };
+	class Exile_Item_Defibrillator				{ quality = 1; price = 1000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Tools
@@ -11271,7 +11270,15 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
-
+	//Spawn Selection by bambam
+	ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick.sqf";
+	ExileClient_gui_selectSpawnLocation_show = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_show.sqf";
+	ExileClient_gui_selectSpawnLocation_zoomToMarker = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_zoomToMarker.sqf";
+	ExileClient_gui_selectSpawnLocation_event_onListBoxSelectionChanged = "xs\spawn\Overwrites\ExileClient_gui_selectSpawnLocation_event_onListBoxSelectionChanged.sqf";
+	ExileServer_object_player_createBambi = "xs\spawn\Overwrites\ExileServer_object_player_createBambi.sqf";
+	//enigma revive script
+	ExileClient_object_player_death_startBleedingOut = "custom\EnigmaRevive\ExileClient_object_player_death_startBleedingOut.sqf"; //Happys Revive
+	ExileClient_object_player_event_onInventoryOpened = "custom\EnigmaRevive\ExileClient_object_player_event_onInventoryOpened.sqf"; //Happys Revive AntiDupe ---NEW with v0.65
 	///KARREN FIX
 	ExileServer_system_trading_network_purchaseVehicleRequest = "custom\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
 	///BOX VERKAUF
@@ -11295,7 +11302,7 @@ class CfgExileCustomCode
 	//ExileServer_system_database_connect = "Exile_Server_Overrides\ExileServer_system_database_connect.sqf";
 	ExileServer_system_database_handleBig = "Exile_Server_Overrides\ExileServer_system_database_handleBig.sqf";
 	ExileServer_system_process_noobFilter = "Exile_Server_Overrides\ExileServer_system_process_noobFilter.sqf";
-	ExileServer_object_player_createBambi = "Exile_Server_Overrides\ExileServer_object_player_createBambi.sqf";///////
+	//ExileServer_object_player_createBambi = "Exile_Server_Overrides\ExileServer_object_player_createBambi.sqf";/////// removed due to xspawn 
 	ExileServer_object_player_database_load = "Exile_Server_Overrides\ExileServer_object_player_database_load.sqf";
 	ExileServer_object_vehicle_database_load = "Exile_Server_Overrides\ExileServer_object_vehicle_database_load.sqf";
 	//ExileServer_object_player_event_onMpKilled = "Exile_Server_Overrides\ExileServer_object_player_event_onMpKilled.sqf";//////
@@ -12775,6 +12782,13 @@ class CfgInteractionMenus
 				condition = "!(alive ExileClientInteractionObject)";
 				action = "_this call ExileClient_object_player_identifyBody";
 			};
+			
+			class Revive: ExileAbstractAction
+			{
+				title = "Perform CPR";
+				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
+				action = "_this spawn Enigma_RevivePlyr";
+			};	
 			
 			class HideCorpse: ExileAbstractAction
 			{
@@ -14870,9 +14884,8 @@ class CfgTraderCategories
 			"gm_ge_army_gauzeBandage",
 			"gm_ge_army_gauzeCompress",
 			"gm_ge_army_medkit_80",
-			"gm_ge_firstaidkit_vehicle"
-			// Not available in 0.9.4!
-			//"Exile_Item_Defibrillator"
+			"gm_ge_firstaidkit_vehicle",
+			"Exile_Item_Defibrillator"
 		};
 	};
 

@@ -2,7 +2,7 @@
 [] execVM "scripts\fn_advancedRappellinginit.sqf";
 [] execVM "scripts\fn_advancedSlingLoadingInit.sqf";
 [] execVM "scripts\fn_advancedTowingInit.sqf";
-[] execVM "scripts\fn_AdvancedPickupRopeInit.sqf";
+//[] execVM "scripts\fn_AdvancedPickupRopeInit.sqf";
 //[] execVM "scripts\adminmenu.sqf";
 
 //[] execVM "scripts\DynWeather.sqf";

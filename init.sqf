@@ -13,3 +13,5 @@ if (isServer) then {
 
 /////////////////////////////R3F/////////////////////////
 [] execVM "R3F_LOG\init.sqf"; 
+// enigma revive script
+[] execVM "Custom\EnigmaRevive\init.sqf";
