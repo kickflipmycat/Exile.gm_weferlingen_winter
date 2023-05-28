@@ -10249,6 +10249,13 @@ class CfgExileArsenal
 	class Exile_Bike_OldBike 						{ quality = 1; price = 40; };
 	class Exile_Bike_MountainBike 					{ quality = 1; price = 50; };
 
+	//snowmobiles chaddles edit
+	class xs_Snowmobile_base 											{ quality = 1; price = 2500; };
+	class xs_Snowmobile_white 											{ quality = 1; price = 2500; };
+	class xs_Snowmobile_sport 											{ quality = 1; price = 2500; };
+	class xs_Snowmobile_sport_camo 										{ quality = 1; price = 2500; };
+	class xs_Snowmobile_combat 											{ quality = 1; price = 2500; };
+
 	///////////////////////////////////////////////////////////////////////////////
 	// QUAD BIKES
 	///////////////////////////////////////////////////////////////////////////////
@@ -15736,6 +15743,11 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
+			"xs_Snowmobile_base",
+			"xs_Snowmobile_white",
+			"xs_Snowmobile_sport",
+			"xs_Snowmobile_sport_camo",
+			"xs_Snowmobile_combat",
 			"Exile_Car_Kart_Black",
 			"Exile_Bike_QuadBike_Black",
 			"Exile_Car_OldTractor_Red",
