@@ -121,7 +121,7 @@ forEach
 
 call Config;
 
-systemChat "Loading: Taschengeld ";
+systemChat "Loading: payments ";
 
 if (usePayCheckMoney) then
 {

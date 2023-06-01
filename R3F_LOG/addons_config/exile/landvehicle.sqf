@@ -1,5 +1,11 @@
 aR3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
+		//snowmobile mod chaddles edit
+		"xs_Snowmobile_base",
+		"xs_Snowmobile_white",
+		"xs_Snowmobile_sport",
+		"xs_Snowmobile_sport_camo",
+		"xs_Snowmobile_combat",
         "B_G_Offroad_01_armed_F",
 		"Exile_Car_HMMWV_M134_Green",
 		"Exile_Car_HMMWV_M134_Desert",
@@ -1637,12 +1643,24 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
 	"Boat_Transport_02_base_F",
 	"SDV_01_base_F",
-	"Boat_Civil_01_base_F"
+	"Boat_Civil_01_base_F",
+	//snowmobile mod chaddles edit
+		"xs_Snowmobile_base",
+		"xs_Snowmobile_white",
+		"xs_Snowmobile_sport",
+		"xs_Snowmobile_sport_camo",
+		"xs_Snowmobile_combat"
 ];
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
     //Larger Vehicles 
+		//snowmobile mod chaddles edit
+		["xs_Snowmobile_base", 150],
+		["xs_Snowmobile_white", 150],
+		["xs_Snowmobile_sport", 150],
+		["xs_Snowmobile_sport_camo", 150],
+		["xs_Snowmobile_combat", 150],
 	    ["Exile_Car_HMMWV_M134_Green", 25],
 		["Exile_Car_HMMWV_M134_Desert", 25],
 	    ["B_G_Offroad_01_armed_F", 25],
@@ -2864,7 +2882,13 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
     ["Kart_01_Base_F", 25],
     ["Tractor_Base", 25],
 	["Rubber_duck_base_F", 25],   
-    ["TowingTractor", 25]
+    ["TowingTractor", 25],
+	//snowmobile mod chaddles edit
+	["xs_Snowmobile_base", 25],
+	["xs_Snowmobile_white", 25],
+	["xs_Snowmobile_sport", 25],
+	["xs_Snowmobile_sport_camo", 25],
+	["xs_Snowmobile_combat", 25]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
